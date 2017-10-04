@@ -32,3 +32,10 @@ header .dropdown-help{display:none}
 .case-label{ color:#000; text-shadow:none; font-size: 95%; font-weight:normal}
 h6.uppercase, .h6.uppercase{ color: #666666;}
 .control-label, .grid-heading-row{ color: #666666;}
+.inline-graph .inline-graph-half .inline-graph-bar-inner-red {
+    display: block;
+    float: left;
+    background-color: #ff5656;
+    height: 6px;
+    border-radius: 0px 3px 3px 0px;
+}
