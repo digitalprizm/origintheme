@@ -16,7 +16,7 @@ frappe.provide("whotheme");
 
 // add toolbar icon
 $(document).bind('toolbar_setup', function() {
-	frappe.app.name = "bdoop Erp";
+	frappe.app.name = "Origin";
 	$('.navbar-home').html(frappe._('Home'));
 
 });
