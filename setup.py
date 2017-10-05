@@ -13,11 +13,11 @@ with open('bdtheme/__init__.py', 'rb') as f:
 requirements = parse_requirements("requirements.txt", session="")
 
 setup(
-	name='bdtheme',
+	name='whotheme',
 	version=version,
-	description='bd theme',
-	author='vinhbk2000',
-	author_email='vinhbk2000@gmail.com',
+	description='Side menu navigation theme',
+	author='Who Agency',
+	author_email='josh@whoagency.com',
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,
