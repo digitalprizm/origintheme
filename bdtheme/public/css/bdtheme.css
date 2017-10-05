@@ -336,11 +336,6 @@
   top: 2px;
 }
 
-.main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.fa_bullet{
-    font-size: 12px;
-}
-
-
 .main-sidebar .sidebar-menu>li .label,.main-sidebar .sidebar-menu>li .badge {
  margin-right:5px
 }
@@ -393,6 +388,11 @@
  text-align: center;
  font-size: 20px;
 }
+
+.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa_bullet{
+  font-size: 12px;
+}
+
 .main-sidebar .sidebar-menu .treeview-menu>li>a>.pull-right-container>.fa-angle-left,.main-sidebar .sidebar-menu .treeview-menu>li>a>.pull-right-container>.fa-angle-down,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa-angle-left,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa-angle-down {
  width:auto
 }
