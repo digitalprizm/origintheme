@@ -387,6 +387,7 @@
  left: -3px;
  text-align: center;
  font-size: 20px;
+ text-decoration: none;
 }
 
 .main-sidebar .sidebar-menu .treeview-menu>li>a>.fa,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa_bullet{
