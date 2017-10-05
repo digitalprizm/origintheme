@@ -13,7 +13,7 @@ with open('whotheme/__init__.py', 'rb') as f:
 requirements = parse_requirements("requirements.txt", session="")
 
 setup(
-	name='whotheme',
+	name='bdtheme',
 	version=version,
 	description='Side menu navigation theme',
 	author='Who Agency',

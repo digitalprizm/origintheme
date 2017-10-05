@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
-app_name = "whotheme"
+app_name = "bdtheme"
 app_title = "Who Theme"
 app_publisher = "Who Agency"
 app_description = "Side menu navigation theme"
