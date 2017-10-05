@@ -336,7 +336,7 @@
   top: 2px;
 }
 
-.main-sidebar .sidebar-menu>li>a>.fa_bullet,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
+.main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.fa_bullet{
     font-size: 12px;
 }
 
