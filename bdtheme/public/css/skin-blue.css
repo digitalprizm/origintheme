@@ -77,6 +77,7 @@
   color: #ffffff;
   background: #1e282c;
   border-left-color: #3c8dbc;
+  text-decoration: none;
 }
 .skin-blue .main-sidebar .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
