@@ -12,7 +12,7 @@
   -o-transition: margin-left 0.3s ease-in-out;
   transition: margin-left 0.3s ease-in-out;
   margin-bottom: 0;
-  margin-left: 230px;
+  margin-left: 200px;
   border: none;
   min-height: 50px;
   border-radius: 0;
@@ -108,10 +108,10 @@
   font-size: 20px;
   line-height: 50px;
   text-align: center;
-  width: 230px;
+  width: 200px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
-  font-weight: 300;
+  font-weight: 100;
   overflow: hidden;
 }
 .main-header .logo .logo-lg {
@@ -233,7 +233,7 @@
  left:0;
  padding-top:50px;
  min-height:100%;
- width:230px;
+ width:200px;
  z-index:810;
  -webkit-transition:-webkit-transform .3s ease-in-out,width .3s ease-in-out;
  -moz-transition:-moz-transform .3s ease-in-out,width .3s ease-in-out;
@@ -247,18 +247,18 @@
 }
 @media (max-width:767px) {
  .main-sidebar,.left-side {
-  -webkit-transform:translate(-230px, 0);
-  -ms-transform:translate(-230px, 0);
-  -o-transform:translate(-230px, 0);
-  transform:translate(-230px, 0)
+  -webkit-transform:translate(-200px, 0);
+  -ms-transform:translate(-200px, 0);
+  -o-transform:translate(-200px, 0);
+  transform:translate(-200px, 0)
  }
 }
 @media (min-width:768px) {
  .sidebar-collapse .main-sidebar,.sidebar-collapse .left-side {
-  -webkit-transform:translate(-230px, 0);
-  -ms-transform:translate(-230px, 0);
-  -o-transform:translate(-230px, 0);
-  transform:translate(-230px, 0)
+  -webkit-transform:translate(-200px, 0);
+  -ms-transform:translate(-200px, 0);
+  -o-transform:translate(-200px, 0);
+  transform:translate(-200px, 0)
  }
 }
 @media (max-width:767px) {
@@ -327,7 +327,12 @@
  display:block
 }
 .main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
- width:20px
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.9;
+  position: relative;
+  left: -6px;
 }
 .main-sidebar .sidebar-menu>li .label,.main-sidebar .sidebar-menu>li .badge {
  margin-right:5px
@@ -368,12 +373,18 @@
  margin:0
 }
 .main-sidebar .sidebar-menu .treeview-menu>li>a {
- padding:5px 5px 5px 15px;
+ padding:5px 5px 5px 10px;
  display:block;
- font-size:14px
+ font-size:14px;
+ line-height: 1.8;
 }
 .main-sidebar .sidebar-menu .treeview-menu>li>a>.fa,.main-sidebar .sidebar-menu .treeview-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu .treeview-menu>li>a>.ion {
- width:20px
+ width:22px;
+ line-height: 1.7;
+ position: relative;
+ left: -3px;
+ text-align: center;
+ font-size: 20px;
 }
 .main-sidebar .sidebar-menu .treeview-menu>li>a>.pull-right-container>.fa-angle-left,.main-sidebar .sidebar-menu .treeview-menu>li>a>.pull-right-container>.fa-angle-down,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa-angle-left,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa-angle-down {
  width:auto
@@ -420,7 +431,7 @@
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>span {
   top:0;
   margin-left:-3px;
-  padding:12px 5px 12px 20px;
+  padding:12px 5px 12px 15px;
   background-color:inherit
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>.pull-right-container {
