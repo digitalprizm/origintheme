@@ -322,6 +322,12 @@
  margin:0;
  padding:0
 }
+
+.main-sidebar .sidebar-menu>li:hover {
+  background-color: #7b6c41;
+  border-radius: 0 23px 23px 0;
+}
+
 .main-sidebar .sidebar-menu>li>a {
  padding:12px 5px 12px 15px;
  display:block
@@ -329,8 +335,28 @@
 .main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
 
   font-size: 20px;
+  background-color: #f0f0f0;
+  padding-top: 8px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  color: black;
 
 }
+
+.main-sidebar .sidebar-menu>li:hover>a>.fa,.main-sidebar .sidebar-menu>li:hover>a>.glyphicon,.main-sidebar .sidebar-menu>li:hover>a>.ion {
+  
+  font-size: 20px;
+  background-color: #252525;
+  padding-top: 8px;
+  width: 36px;
+  height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  
+  }
 
 .main-sidebar .sidebar-menu>li .label,.main-sidebar .sidebar-menu>li .badge {
  margin-right:5px
@@ -409,11 +435,15 @@
   width:51px !important;
   z-index:850;
   border-radius: 10px;
+  background-color: #fff;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li {
   position:relative
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a {
+  margin-right:0
+ }
+ .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a {
   margin-right:0
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a>span {
