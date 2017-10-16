@@ -1,7 +1,7 @@
 {
     "css/bdtheme.min.css": [
         "public/css/bdtheme.css",
-        "public/css/skin-blue.css",
+        "public/css/skin-origin.css",
         "public/css/custom.css",
         "public/css/temp.css"
     ],

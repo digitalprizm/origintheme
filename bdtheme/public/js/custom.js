@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 	$('header').addClass('main-header');
 	$('header .navbar').removeClass('navbar-fixed-top');
-	$('body').addClass('skin-blue sidebar-mini sidebar-collapse');	
+	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');	
 	
 	bdtheme.set_user_background();

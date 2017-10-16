@@ -1,15 +1,43 @@
+/** Who Theme App - Inset **/
+
+html {
+    background-color: #d0d0d0;
+}
+
+html, body {
+    overflow-x: hidden;
+    padding: 15px;
+    border-radius: 9px;
+}
+
+/** Who Theme App **/
+
 #page-desktop{ position: static}
+
 #body_div{ background: #FFFFFF}
+
 .main-section{ background: #222d32}
-.page-head{ position: static}
+.page-head{ 
+    position: static;
+    border-bottom: none;
+}
+
 .page-content{ margin-top:0}
+
 header .container{ width:100%; padding:0px 15px 0 0; min-height: 50px;}
+
 .navbar-brand{ padding: 0 15px 0 15px; line-height: 50px; height: 50px;}
+
 #navbar-breadcrumbs > li > a{ padding: 11px 15px 15px 0px}
+
 .navbar-form{ margin-top:10px;}
+
 .navbar .dropdown-toggle{padding:13px 15px}
+
 header .dropdown-help{display:none}
+
 .main-header .sidebar-toggle{text-decoration: none;}
+
 .page-container{margin-top:0;}
 /*
 .navbar-brand{height: 50px; line-height: 30px}
@@ -18,6 +46,7 @@ header .dropdown-help{display:none}
 .main-header .navbar{min-height: 40px;}
 */
 #page-desktop{ background-color:#FFFFFF !important}
+
 .main-header .logo .logo-lg{
     background: #367fa9 url(/assets/bdtheme/images/origin.png) center no-repeat;
     background-size: auto 36px;
@@ -29,9 +58,25 @@ header .dropdown-help{display:none}
     text-indent:-99em;
 }
 .layout-side-section{ font-size: 13px;}
+
+.layout-main-section {
+    border-left: 1px dotted #d1d8dd;
+    border-top: 0px;
+    padding: 0 0 0 25px;
+}
+
+@media (min-width: 768px){
+    .listview-main-section {
+        border-right: 1px solid #d1d8dd;
+    }
+}
+
 .case-label{ color:#000; text-shadow:none; font-size: 95%; font-weight:normal}
+
 h6.uppercase, .h6.uppercase{ color: #666666;}
+
 .control-label, .grid-heading-row{ color: #666666;}
+
 .inline-graph .inline-graph-half .inline-graph-bar-left-red {
     display: block;
     float: left;
