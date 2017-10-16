@@ -230,7 +230,7 @@
 .main-sidebar,.left-side {
  position:absolute;
  top:0;
- left:0;
+ /* left:0; */
  padding-top:50px;
  min-height:100%;
  width:200px;
@@ -327,13 +327,9 @@
  display:block
 }
 .main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
-  width: 25px;
-  text-align: center;
+
   font-size: 20px;
-  line-height: 1.9;
-  position: relative;
-  left: -6px;
-  top: 2px;
+
 }
 
 .main-sidebar .sidebar-menu>li .label,.main-sidebar .sidebar-menu>li .badge {
@@ -387,6 +383,7 @@
  left: -3px;
  text-align: center;
  font-size: 20px;
+ text-decoration: none;
 }
 
 .main-sidebar .sidebar-menu .treeview-menu>li>a>.fa,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa_bullet{
@@ -410,7 +407,8 @@
   -o-transform:translate(0, 0);
   transform:translate(0, 0);
   width:51px !important;
-  z-index:850
+  z-index:850;
+  border-radius: 10px;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li {
   position:relative
@@ -451,7 +449,7 @@
   display:none
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>.treeview-menu {
-  top:44px;
+  top:62px;
   margin-left:0
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .user-panel>.info,.sidebar-mini.sidebar-collapse .sidebar-form,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a>span,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>.treeview-menu,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a>.pull-right,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu li.header {
