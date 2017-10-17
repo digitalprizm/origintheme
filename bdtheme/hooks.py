@@ -41,7 +41,10 @@ web_include_css = "/assets/bdtheme/css/bdtheme-web.css"
 
 # Home Pages
 # ----------
-
+website_context = {
+	"favicon": 	"/assets/bdtheme/images/favicon.png",
+	"splash_image": "/assets/bdtheme/images/icon.png"
+}
 # application home page (will override Website Settings)
 # home_page = "login"
 
