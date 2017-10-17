@@ -331,7 +331,7 @@
 }
 
 .main-sidebar .sidebar-menu>li>a {
- padding: 6px 6px 6px 17px;
+ padding: 6px 6px 6px 12px;
  display: block
 }
 .main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
@@ -438,6 +438,7 @@
   z-index:850;
   border-radius: 10px;
   background-color: #fff;
+  top: 30px;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li {
   position:relative;
@@ -496,7 +497,7 @@
   display:block;
   margin-left:-15px;
   margin-right:-15px;
-  font-size:18px;
+  font-size:17px;
   border-radius: 0 0 15px 0;
  }
  .sidebar-mini.sidebar-collapse .main-header .logo>.logo-lg {
