@@ -145,7 +145,7 @@ h6.uppercase, .h6.uppercase{ color: #666666;}
 .container {
     width: 100%;
     padding-right: 35px;
-    padding-left: 35px;
+    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
