@@ -2,11 +2,12 @@
 
 html {
     background-color: #d0d0d0;
+    padding: 15px;
+    height 100%;
 }
 
 html, body {
     overflow-x: hidden;
-    padding: 15px;
     border-radius: 9px;
 }
 
