@@ -329,6 +329,11 @@
   border-radius: 0 25px 25px 0;
 }
 
+.main-sidebar .sidebar-menu>li:active {
+  background-color: #7b6c41;
+  border-radius: 0 25px 25px 0;
+}
+
 .main-sidebar .sidebar-menu>li>a {
  padding: 6px 6px 6px 14px;
  display: block
@@ -346,7 +351,12 @@
 
 }
 
-.main-sidebar .sidebar-menu>li:hover>a>.fa,.main-sidebar .sidebar-menu>li:hover>a>.glyphicon,.main-sidebar .sidebar-menu>li:hover>a>.ion {
+.main-sidebar .sidebar-menu>li:hover>a>.fa,
+.main-sidebar .sidebar-menu>li:hover>a>.glyphicon,
+.main-sidebar .sidebar-menu>li:hover>a>.ion,
+.main-sidebar .sidebar-menu>li:active>a>.fa,
+.main-sidebar .sidebar-menu>li:active>a>.glyphicon,
+.main-sidebar .sidebar-menu>li:active>a>.ion{
   
   font-size: 20px;
   background-color: #252525;
