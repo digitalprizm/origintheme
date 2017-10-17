@@ -6,6 +6,7 @@ $(document).ready(function() {
 
 	$('header').addClass('main-header');
 	$('header .navbar').removeClass('navbar-fixed-top');
+	$('header .navbar ul').addClass('hidden-item');
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');	
 	

@@ -2,6 +2,11 @@
  * Skin: Origin
  * ----------
  */
+
+.hidden-item {
+     visibility: hidden;
+ }
+ 
 .skin-origin .main-header .navbar {
   background-color: #ff0000;
 }
