@@ -611,13 +611,13 @@
 }
 .btn-primary {
   color: white;
-  background-color: var(--originGold);
-  border-color: var(--originGold);
+  background-color: #86754d;
+  border-color: #86754d;
 }
 
 .btn-default {
   color: white;
-  background-color: var(--originDarkGray);
+  background-color: #2f3333;
   border-color: transparent;
 }
 
