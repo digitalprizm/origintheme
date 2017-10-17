@@ -3,25 +3,6 @@
  * ----------------------
  */
 
- :root {
-  --originDarkGray: "#2f3333";
-  --originDarkGrayHover: "#2f3333";
-  --originLightGray: "#eaeaea";
-  --originLightGrayHover: "#eaeaea";
-  --originGray: "#828282";
-  --originGrayHover: "#828282";
-  --originGold: "#86754d";
-  --originGoldHover: "#86754d";
-  --originYellow: "#ffec40";
-  --originYellowHover: "#ffec40";
-  --originGreen: "#17e58c";
-  --originGreenHover: "#17e58c";
-  --originBlue: "#149eff";
-  --originBlueHover: "#149eff";
-  --originRed: "#ff3346";
-  --originRedHover: "#ff3346";
- }
-
 .main-header {
   position: relative;
   max-height: 100px;
@@ -253,7 +234,6 @@
 
  /* left:0; */
  padding-top:50px;
- min-height:100%;
  width:200px;
  z-index:810;
  -webkit-transition:-webkit-transform .3s ease-in-out,width .3s ease-in-out;
@@ -576,53 +556,6 @@
     z-index: 9998;
 }
 
-.btn-sm, .btn-group-sm > .btn {
-  padding: 5px 15px;
-  font-size: 12px;
-  line-height: 2;
-  border-radius: 20px;
-}
-#navbar-search {
-    width: 100%;
-    background-color: rgba(255, 255, 255, 1.0);
-    border: none;
-    border-radius: 40px;
-    height: 32px;
-}
 
-.input-sm {
-  border-radius: 30px;
-}
 
-.page-form {
-  background-color: none;
-}
 
-.list-item--head {
-  background-color: #f7f7f7;
-  border-bottom: 1px solid #d1d8dd;
-  cursor: auto;
-}
-
-@media (min-width: 768px) {
-.listview-main-section {
-    border-right: none;
-}
-}
-.btn-primary {
-  color: white;
-  background-color: #86754d;
-  border-color: #86754d;
-}
-
-.btn-default {
-  color: white;
-  background-color: #2f3333;
-  border-color: transparent;
-}
-
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-  color: inherit;
-  background-color: #474747;
-  border-color: rgba(0, 0, 0, 0);
-}
