@@ -326,11 +326,11 @@
 
 .main-sidebar .sidebar-menu>li:hover {
   background-color: #7b6c41;
-  border-radius: 0 23px 23px 0;
+  border-radius: 0 25px 25px 0;
 }
 
 .main-sidebar .sidebar-menu>li>a {
- padding: 6px 6px 6px 15px;
+ padding: 6px 6px 6px 14px;
  display: block
 }
 .main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
@@ -461,29 +461,34 @@
   border-bottom-right-radius:4px
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>span:not(.pull-right),.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>.treeview-menu {
-  display:block !important;
-  position:absolute;
-  width:180px;
-  left:51px
+  display: block !important;
+  position: absolute;
+  width: 200px;
+  left: 21px;
+  background: #7B6C40;
+  z-index: -1;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>span {
   top:0;
   margin-left:-3px;
-  padding:12px 5px 12px 15px;
+  padding:15px 5px 15px 60px;
   background-color:inherit
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>.pull-right-container {
-  float:right;
-  width:auto!important;
-  left:200px!important;
-  top:10px!important
+  float: right;
+  width: auto!important;
+  left: 199px!important;
+  top: 7px!important;
+  height: 100%;
+  border-radius: 0 25px 0 0;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>.pull-right-container>.label:not(:first-of-type) {
   display:none
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>.treeview-menu {
-  top:62px;
-  margin-left:0
+  top: 42px;
+  margin-left: 40px;
+  border-radius: 0 0 25px 25px;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .user-panel>.info,.sidebar-mini.sidebar-collapse .sidebar-form,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a>span,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>.treeview-menu,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a>.pull-right,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu li.header {
   display:none !important;
