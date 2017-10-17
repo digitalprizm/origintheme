@@ -181,6 +181,7 @@
   border: 0;
   margin: 0;
   padding: 15px 15px;
+  visibility: hidden;
 }
 @media (max-width: 991px) {
   .navbar-custom-menu .navbar-nav > li {
@@ -330,7 +331,7 @@
 }
 
 .main-sidebar .sidebar-menu>li>a {
- padding: 6px 6px 6px 8px;
+ padding: 6px 6px 6px 17px;
  display: block
 }
 .main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
@@ -425,7 +426,7 @@
  */
 @media (min-width:768px) {
  .sidebar-mini.sidebar-collapse .content-wrapper,.sidebar-mini.sidebar-collapse .right-side,.sidebar-mini.sidebar-collapse .main-footer {
-  margin-left:51px !important;
+  margin-left:60px !important;
   z-index:840
  }
  .sidebar-mini.sidebar-collapse .main-sidebar {
@@ -439,7 +440,8 @@
   background-color: #fff;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li {
-  position:relative
+  position:relative;
+  margin: 10px 0 10px 0;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a {
   margin-right:0
@@ -488,7 +490,7 @@
   -webkit-transform:translateZ(0)
  }
  .sidebar-mini.sidebar-collapse .main-header .logo {
-  width:51px
+  width:60px
  }
  .sidebar-mini.sidebar-collapse .main-header .logo>.logo-mini {
   display:block;
@@ -500,7 +502,7 @@
   display:none
  }
  .sidebar-mini.sidebar-collapse .main-header .navbar {
-  margin-left:51px
+  margin-left:60px
  }
 }
 .main-sidebar .sidebar-menu,.main-sidebar .user-panel,.main-sidebar .sidebar-menu>li.header {
