@@ -6,8 +6,8 @@ $(document).ready(function() {
 
 	$('header').addClass('main-header');
 	$('header .navbar').removeClass('navbar-fixed-top');
-	$('#navbar-breadcrumbs').addClass('hidden-item');
-	$('.navbar-home').addClass('hidden-item');
+	// $('#navbar-breadcrumbs').addClass('hidden-item');
+	// $('.navbar-home').addClass('hidden-item');
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');	
 	
@@ -51,6 +51,6 @@ frappe.templates["logo"] = '<a href="/desk" class="logo">'
 +'      <span class="logo-lg"><b>bdoop</b></span>'
 +'    </a>';
 
-frappe.templates["sidebar-toggle"] = '<a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">'
+frappe.templates["sidebar-toggle"] = '<a href="#" class="sidebar-toggle hidden-item" data-toggle="offcanvas" role="button">'
 +	        '<span class="sr-only">Toggle navigation</span>'
 +	    '</a>';
