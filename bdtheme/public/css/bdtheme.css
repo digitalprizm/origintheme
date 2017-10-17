@@ -330,7 +330,7 @@
 }
 
 .main-sidebar .sidebar-menu>li>a {
- padding: 6px 6px 6px 12px;
+ padding: 6px 6px 6px 15px;
  display: block
 }
 .main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
@@ -338,8 +338,8 @@
   font-size: 20px;
   background-color: #f0f0f0;
   padding-top: 8px;
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   text-align: center;
   border-radius: 50%;
   color: #2f3333;
@@ -351,8 +351,8 @@
   font-size: 20px;
   background-color: #252525;
   padding-top: 8px;
-  width: 36px;
-  height: 36px;
+  width: 38px;
+  height: 38px;
   text-align: center;
   border-radius: 50%;
   color: white;
@@ -433,7 +433,7 @@
   -ms-transform:translate(0, 0);
   -o-transform:translate(0, 0);
   transform:translate(0, 0);
-  width:60px !important;
+  width:58px !important;
   z-index:850;
   border-radius: 10px;
   background-color: #fff;
