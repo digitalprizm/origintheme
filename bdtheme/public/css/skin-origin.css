@@ -8,7 +8,8 @@
  }
 
 .skin-origin .main-header .navbar {
-  background-color: #1a2226;
+  background-color: #2f3333;
+  border-bottom: 5px inset #86754d;
 }
 .skin-origin .main-header .navbar .nav > li > a {
   color: #ffffff;
@@ -72,11 +73,11 @@
 }
 .skin-origin .main-sidebar .sidebar-menu > li.header {
   color: #fff;
-  background: #1a2226;
+  background: #2f3333;
 }
 .skin-origin .main-sidebar .sidebar-menu > li > a {
     color: #fff;
-    /* background: #1a2226; */
+    /* background: #2f3333; */
 }
 .skin-origin .main-sidebar .sidebar-menu > li:hover > a,
 .skin-origin .main-sidebar .sidebar-menu > li.active > a {
