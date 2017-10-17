@@ -14,7 +14,7 @@
   margin-bottom: 0;
   margin-left: 200px;
   border: none;
-  min-height: 50px;
+  min-height: 60px;
   border-radius: 0;
 }
 .layout-top-nav .main-header .navbar {
@@ -68,7 +68,7 @@
   background-image: none;
   padding: 0 20px;
   font-family: fontAwesome;
-  line-height:50px;
+  line-height:60px;
   margin-right:10px;
 }
 .main-header .sidebar-toggle:before {
@@ -104,9 +104,9 @@
   transition: width 0.3s ease-in-out;
   display: block;
   float: left;
-  height: 50px;
+  height: 60px;
   font-size: 20px;
-  line-height: 50px;
+  line-height: 60px;
   text-align: center;
   width: 200px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -229,7 +229,8 @@
  */
 .main-sidebar,.left-side {
  position:absolute;
- top:0;
+ top:15px;
+
  /* left:0; */
  padding-top:50px;
  min-height:100%;
@@ -329,8 +330,8 @@
 }
 
 .main-sidebar .sidebar-menu>li>a {
- padding:12px 5px 12px 15px;
- display:block
+ padding: 6px 6px 6px 8px;
+ display: block
 }
 .main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
 
@@ -432,7 +433,7 @@
   -ms-transform:translate(0, 0);
   -o-transform:translate(0, 0);
   transform:translate(0, 0);
-  width:51px !important;
+  width:60px !important;
   z-index:850;
   border-radius: 10px;
   background-color: #fff;
