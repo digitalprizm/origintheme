@@ -17,7 +17,7 @@ app_license = "MIT"
 # include js, css files in header of desk.html
 app_include_css = [
     "/assets/bdtheme/css/bdtheme.css",
-    "/assets/bdtheme/css/skin-blue.css",
+    "/assets/bdtheme/css/skin-origin.css",
     "/assets/bdtheme/css/custom.css",
     "/assets/bdtheme/css/temp.css",
 ]
