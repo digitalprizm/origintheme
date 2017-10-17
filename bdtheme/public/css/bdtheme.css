@@ -104,9 +104,8 @@
   transition: width 0.3s ease-in-out;
   display: block;
   float: left;
-  height: 60px;
   font-size: 20px;
-  line-height: 60px;
+  line-height: 65px;
   text-align: center;
   width: 200px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -434,7 +433,7 @@
   -ms-transform:translate(0, 0);
   -o-transform:translate(0, 0);
   transform:translate(0, 0);
-  width:70px !important;
+  width:60px !important;
   z-index:850;
   border-radius: 10px;
   background-color: #fff;
@@ -491,7 +490,7 @@
   -webkit-transform:translateZ(0)
  }
  .sidebar-mini.sidebar-collapse .main-header .logo {
-  width:60px
+  width:65px
  }
  .sidebar-mini.sidebar-collapse .main-header .logo>.logo-mini {
   display:block;
@@ -504,7 +503,7 @@
   display:none
  }
  .sidebar-mini.sidebar-collapse .main-header .navbar {
-  margin-left:60px
+  margin-left:65px
  }
 }
 .main-sidebar .sidebar-menu,.main-sidebar .user-panel,.main-sidebar .sidebar-menu>li.header {
