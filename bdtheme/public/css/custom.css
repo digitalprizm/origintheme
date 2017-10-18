@@ -55,7 +55,6 @@ header .container {
 @media (min-width: 768px) {
 .navbar-nav {
     float: left;
-    margin: 0 0 0 25px;
 }
 }
 .navbar-brand {
@@ -293,7 +292,12 @@ h6.uppercase,
 }
 
 .page-form {
-    background-color: none;
+    margin: 0px;
+    padding-right: 15px;
+    padding-top: 10px;
+    border-bottom: none;
+    background-color: #eaeaea;
+    border-radius: 25px;
 }
 
 .form-inner-toolbar {
@@ -371,9 +375,9 @@ h6.uppercase,
 }
 
 .btn-default {
-    color: #929292;
-    background-color: #f0f0f0;
-    border-color: #d2d2d2;
+    color: white;
+    background-color: #a5a8a8;
+    border-color: transparent;
 }
 
 .btn-default:hover,
@@ -383,8 +387,8 @@ h6.uppercase,
 .btn-default.active,
 .open>.dropdown-toggle.btn-default {
     color: #fff;
-    background-color: #d8b96f;
-    border-color: #c7a248;
+    background-color: #b9bdbd;
+    border-color: transparent;
 }
 
 .btn-primary {
@@ -400,8 +404,16 @@ h6.uppercase,
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #d8b96f;
-    border-color: #c7a248;
+    background-color: #af9865;
+    border-color: transparent;
+
+}
+
+.btn-xs, .btn-group-xs > .btn {
+    padding: 1px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 20px;
 }
 
 .timeline-head .comment-input-header {
@@ -419,7 +431,7 @@ h6.uppercase,
     font-weight: 300;
     font-size: 1.2em;
     position: relative;
-    top: -70px;
-    color: white;
+    top: 0;
+    color: #2f3434;
     z-index: 8000;
 }
