@@ -1,13 +1,13 @@
 $(document).ready(function() {
 	$('header').prepend(frappe.render_template("logo"));
-	$('header .navbar .container').prepend(frappe.render_template("sidebar-toggle"));
+	//$('header .navbar .container').prepend(frappe.render_template("sidebar-toggle"));
 	// $('header .navbar .container').remove(frappe.render_template("#navbar-breadcrumbs"));
 	$('.main-section').append(frappe.render_template("main-sidebar"));
 
 	$('header').addClass('main-header');
 	$('header .navbar').removeClass('navbar-fixed-top');
 	// $('#navbar-breadcrumbs').addClass('hidden-item');
-	$('.navbar-home').addClass('hidden-item');
+	$('.navbar-home').addClass('hidden-lg');
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');	
 	
