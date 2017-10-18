@@ -15,9 +15,10 @@ $(document).ready(function() {
 	bdtheme.set_user_background();
 	
 });
-$( window ).on( "load", function() {
+$(window).load(function() {
 	console.log( "window loaded" );
 	$('.page-head').prependTo('.layout-main-section');
+	console.log( "window loaded" );
 });
 
 frappe.provide("bdtheme");
