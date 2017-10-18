@@ -17,7 +17,7 @@ $(document).ready(function() {
 });
 $(window).load(function() {
 	console.log( "window loaded" );
-	$('.page-head').prependTo('.layout-main-section');
+	$('.page-head').before('.layout-main-section');
 	console.log( "window loaded" );
 });
 
