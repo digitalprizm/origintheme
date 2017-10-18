@@ -3,7 +3,8 @@ $(document).ready(function() {
 	//$('header .navbar .container').prepend(frappe.render_template("sidebar-toggle"));
 	// $('header .navbar .container').remove(frappe.render_template("#navbar-breadcrumbs"));
 	$('.main-section').append(frappe.render_template("main-sidebar"));
-	// $('.layout-side-section').prepend(frappe.render_template("treeview"));
+	// $('.page-container').remove('.page-head');
+	$('.page-head').prependTo('.layout-main-section-wrapper');
 
 	$('header').addClass('main-header');
 	$('header .navbar').removeClass('navbar-fixed-top');
