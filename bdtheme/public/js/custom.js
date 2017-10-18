@@ -3,7 +3,7 @@ $(document).ready(function() {
 	//$('header .navbar .container').prepend(frappe.render_template("sidebar-toggle"));
 	// $('header .navbar .container').remove(frappe.render_template("#navbar-breadcrumbs"));
 	$('.main-section').append(frappe.render_template("main-sidebar"));
-	$('.layout-side-section').prepend(frappe.render_template("treeview"));
+	// $('.layout-side-section').prepend(frappe.render_template("treeview"));
 
 	$('header').addClass('main-header');
 	$('header .navbar').removeClass('navbar-fixed-top');
