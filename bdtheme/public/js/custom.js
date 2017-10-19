@@ -4,7 +4,7 @@ $(document).ready(function() {
 	// $('header .navbar .container').remove(frappe.render_template("#navbar-breadcrumbs"));
 	$('.main-section').append(frappe.render_template("main-sidebar"));
 	// $('.page-container').remove('.page-head');
-	$('.layout-main-section').prepend(frappe.onload_post_render('.page-head'));
+	//$('.layout-main-section').prepend(frappe.onload_post_render('.page-head'));
 
 	$('header').addClass('main-header');
 	$('header .navbar').removeClass('navbar-fixed-top');
