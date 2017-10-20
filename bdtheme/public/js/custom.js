@@ -12,8 +12,8 @@ $(document).ready(function() {
 	$('#toolbar-user a:contains(/index)').addClass('hidden');
 	$('#toolbar-user a:contains(#background_jobs)').addClass('hidden');
 	$('header .navbar').removeClass('navbar-fixed-top');
-	$('list-filters').removeClass('text-muted');
-	 $('#navbar-breadcrumbs').addClass('hidden');
+	$('.list-filters').removeClass('text-muted');
+	$('#navbar-breadcrumbs').addClass('hidden');
 	$('.navbar-home').addClass('hidden-lg');
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');	
