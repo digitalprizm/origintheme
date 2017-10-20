@@ -1,6 +1,6 @@
-## WHO theme
+## bd theme
 
-WHO theme
+bd theme
 
 #### License
 

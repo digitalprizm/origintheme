@@ -16,20 +16,20 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 app_include_css = [
-    "/assets/whotheme/css/whotheme.css",
-    "/assets/whotheme/css/skin-blue.css",
-    "/assets/whotheme/css/custom.css",
-    "/assets/whotheme/css/temp.css",
+    "/assets/bdtheme/css/bdtheme.css",
+    "/assets/bdtheme/css/skin-blue.css",
+    "/assets/bdtheme/css/custom.css",
+    "/assets/bdtheme/css/temp.css",
 ]
 app_include_js = [
-    "/assets/whotheme/js/whotheme.js",
-    "/assets/whotheme/js/custom.js",
-    "/assets/js/whotheme-template.min.js",
+    "/assets/bdtheme/js/bdtheme.js",
+    "/assets/bdtheme/js/custom.js",
+    "/assets/js/bdtheme-template.min.js",
 ]
 
 # include js, css files in header of web template
-web_include_css = "/assets/whotheme/css/whotheme-web.css"
-# web_include_js = "/assets/whotheme/js/whotheme.js"
+web_include_css = "/assets/bdtheme/css/bdtheme-web.css"
+# web_include_js = "/assets/bdtheme/js/bdtheme.js"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -51,7 +51,7 @@ web_include_css = "/assets/whotheme/css/whotheme-web.css"
 # }
 
 # Website user home page (by function)
-# get_website_user_home_page = "whotheme.utils.get_home_page"
+# get_website_user_home_page = "bdtheme.utils.get_home_page"
 
 # Generators
 # ----------
@@ -62,14 +62,14 @@ web_include_css = "/assets/whotheme/css/whotheme-web.css"
 # Installation
 # ------------
 
-# before_install = "whotheme.install.before_install"
-# after_install = "whotheme.install.after_install"
+# before_install = "bdtheme.install.before_install"
+# after_install = "bdtheme.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "whotheme.notifications.get_notification_config"
+# notification_config = "bdtheme.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -100,31 +100,31 @@ web_include_css = "/assets/whotheme/css/whotheme-web.css"
 
 # scheduler_events = {
 # 	"all": [
-# 		"whotheme.tasks.all"
+# 		"bdtheme.tasks.all"
 # 	],
 # 	"daily": [
-# 		"whotheme.tasks.daily"
+# 		"bdtheme.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"whotheme.tasks.hourly"
+# 		"bdtheme.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"whotheme.tasks.weekly"
+# 		"bdtheme.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"whotheme.tasks.monthly"
+# 		"bdtheme.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "whotheme.install.before_tests"
+# before_tests = "bdtheme.install.before_tests"
 
 # Overriding Whitelisted Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "whotheme.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "bdtheme.event.get_events"
 # }
 

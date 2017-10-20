@@ -8,11 +8,11 @@ $(document).ready(function() {
 	$('body').addClass('skin-blue sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');	
 	
-	whotheme.set_user_background();
+	bdtheme.set_user_background();
 	
 });
 
-frappe.provide("whotheme");
+frappe.provide("bdtheme");
 
 // add toolbar icon
 $(document).bind('toolbar_setup', function() {
@@ -21,7 +21,7 @@ $(document).bind('toolbar_setup', function() {
 
 });
 
-whotheme.set_user_background = function(src, selector, style){
+bdtheme.set_user_background = function(src, selector, style){
 	if(!selector) selector = "#page-desktop";
 	if(!style) style = "Fill Screen";
 	if(src) {
@@ -44,8 +44,8 @@ whotheme.set_user_background = function(src, selector, style){
 }
 
 frappe.templates["logo"] = '<a href="/desk" class="logo">'
-+     ' <span class="logo-mini"><WHO</b></span>'
-+'      <span class="logo-lg"><b>WHO agency</b></span>'
++     ' <span class="logo-mini"><b>bd</b></span>'
++'      <span class="logo-lg"><b>bdoop</b></span>'
 +'    </a>';
 
 frappe.templates["sidebar-toggle"] = '<a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">'
