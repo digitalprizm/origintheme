@@ -1,0 +1,161 @@
+/*
+ * Skin: Origin
+ * ----------
+ */
+
+ :root {
+  --originDarkGray: "#2f3333";
+  --originDarkGrayHover: "#2f3333";
+  --originLightGray: "#eaeaea";
+  --originLightGrayHover: "#eaeaea";
+  --originGray: "#828282";
+  --originGrayHover: "#828282";
+  --originGold: "#86754d";
+  --originGoldHover: "#86754d";
+  --originYellow: "#ffec40";
+  --originYellowHover: "#ffec40";
+  --originGreen: "#17e58c";
+  --originGreenHover: "#17e58c";
+  --originBlue: "#149eff";
+  --originBlueHover: "#149eff";
+  --originRed: "#ff3346";
+  --originRedHover: "#ff3346";
+ }
+
+.hidden-item {
+     visibility: hidden;
+ }
+
+.skin-origin .main-header .navbar {
+  background-color: #2f3333;
+}
+.skin-origin .main-header .navbar .nav > li > a {
+  color: white;
+}
+.skin-origin .main-header .navbar .nav > li > a:hover,
+.skin-origin .main-header .navbar .nav > li > a:active,
+.skin-origin .main-header .navbar .nav > li > a:focus,
+.skin-origin .main-header .navbar .nav .open > a,
+.skin-origin .main-header .navbar .nav .open > a:hover,
+.skin-origin .main-header .navbar .nav .open > a:focus,
+.skin-origin .main-header .navbar .nav > .active > a {
+  /* background: rgba(0, 0, 0, 0.1); */
+  color: white;
+}
+.skin-origin .main-header .navbar .sidebar-toggle {
+  color: white;
+}
+.skin-origin .main-header .navbar .sidebar-toggle:hover {
+  color: #f6f6f6;
+  background: rgba(0, 0, 0, 0.1);
+}
+.skin-origin .main-header .navbar .sidebar-toggle {
+  color: white;
+}
+
+@media (max-width: 767px) {
+  .skin-origin .main-header .navbar .dropdown-menu li.divider {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .skin-origin .main-header .navbar .dropdown-menu li a {
+    color: white;
+  }
+  .skin-origin .main-header .navbar .dropdown-menu li a:hover {
+    /* background: #ff0000; */
+  }
+}
+.skin-origin .main-header .logo {
+  /* background-color: #ff0000; */
+  color: whitefff;
+  border-bottom: 0 solid transparent;
+}
+.skin-origin .main-header .logo:hover {
+  /* background-color: #ff0000; */
+}
+.skin-origin .main-header li.user-header {
+  /* background-color: #ff0000; */
+}
+.skin-origin .content-header {
+  background: transparent;
+}
+.skin-origin .wrapper,
+.skin-origin .main-sidebar,
+.skin-origin .left-side {
+  background-color: white;
+}
+.skin-origin .user-panel > .info,
+.skin-origin .user-panel > .info > a {
+  color: white;
+}
+.skin-origin .main-sidebar .sidebar-menu > li.header {
+  color: white;
+  background: #2f3333;
+}
+.skin-origin .main-sidebar .sidebar-menu > li > a {
+    color: white;
+    /* background: #2f3333; */
+}
+.skin-origin .main-sidebar .sidebar-menu > li:hover > a,
+.skin-origin .main-sidebar .sidebar-menu > li.active > a {
+  color: whitefff;
+  text-decoration: none;
+}
+.skin-origin .main-sidebar .sidebar-menu > li > .treeview-menu {
+  margin: 0 1px;
+  background: #2c3b41;
+}
+.skin-origin .sidebar a {
+  color: white;
+}
+.skin-origin .sidebar a:hover {
+  text-decoration: none;
+}
+.skin-origin .treeview-menu > li > a {
+  color: white;
+}
+.skin-origin .treeview-menu > li.active > a,
+.skin-origin .treeview-menu > li > a:hover {
+  color: whitefff;
+}
+.skin-origin .sidebar-form {
+  border-radius: 3px;
+  border: 1px solid #374850;
+  margin: 10px 10px;
+}
+.skin-origin .sidebar-form input[type="text"],
+.skin-origin .sidebar-form .btn {
+  box-shadow: none;
+  background-color: #374850;
+  border: 1px solid transparent;
+  height: 35px;
+}
+.skin-origin .sidebar-form input[type="text"] {
+  color: #666;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 2px;
+}
+.skin-origin .sidebar-form input[type="text"]:focus,
+.skin-origin .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  background-color: white;
+  color: #666;
+}
+.skin-origin .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+  border-left-color: white;
+}
+.skin-origin .sidebar-form .btn {
+  color: #999;
+  border-top-left-radius: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 0;
+}
+.skin-origin.layout-top-nav .main-header > .logo {
+  /* background-color: #ff0000; */
+  color: whitefff;
+  border-bottom: 0 solid transparent;
+}
+.skin-origin.layout-top-nav .main-header > .logo:hover {
+  /* background-color: #ff0000; */
+}

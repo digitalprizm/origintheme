@@ -46,17 +46,17 @@ $.AdminLTE.options = {
   //Sidebar push menu toggle button selector
   sidebarToggleSelector: "[data-toggle='offcanvas']",
   //Activate sidebar push menu
-  sidebarPushMenu: true,
+  sidebarPushMenu: false,
   //Activate sidebar slimscroll if the fixed layout is set (requires SlimScroll Plugin)
-  sidebarSlimScroll: true,
+  sidebarSlimScroll: false,
   //Enable sidebar expand on hover effect for sidebar mini
   //This option is forced to true if both the fixed layout and sidebar mini
   //are used together
   sidebarExpandOnHover: false,
   //BoxRefresh Plugin
-  enableBoxRefresh: true,
+  enableBoxRefresh: false,
   //Bootstrap.js tooltip
-  enableBSToppltip: false,
+  enableBSToppltip: true,
   BSTooltipSelector: "[data-toggle='tooltip']",
   //Enable Fast Click. Fastclick.js creates a more
   //native touch experience with touch devices. If you
@@ -64,7 +64,7 @@ $.AdminLTE.options = {
   //before AdminLTE's app.js
   enableFastclick: false,
   //Control Sidebar Options
-  enableControlSidebar: true,
+  enableControlSidebar: false,
   controlSidebarOptions: {
     //Which button should trigger the open/close event
     toggleBtnSelector: "[data-toggle='control-sidebar']",
@@ -75,7 +75,7 @@ $.AdminLTE.options = {
   },
   //Box Widget Plugin. Enable this plugin
   //to allow boxes to be collapsed and/or removed
-  enableBoxWidget: true,
+  enableBoxWidget: false,
   //Box Widget plugin options
   boxWidgetOptions: {
     boxWidgetIcons: {

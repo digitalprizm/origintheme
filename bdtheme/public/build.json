@@ -1,7 +1,7 @@
 {
     "css/bdtheme.min.css": [
         "public/css/bdtheme.css",
-        "public/css/skin-blue.css",
+        "public/css/skin-origin.css",
         "public/css/custom.css",
         "public/css/temp.css"
     ],
@@ -10,7 +10,7 @@
         "public/js/custom.js"
     ],
     "js/bdtheme-template.min.js": [
-        "public/js/template/main-sidebar.html"
+        "public/js/template/stacey-sidebar.html"
     ]
     
 }
