@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('header').prepend(frappe.render_template("logo"));
-	$('.toggle-sidebar').prepend(frappe.render_template("comapny-name"));
+	$('.toggle-sidebar').prepend(frappe.render_template("company-name"));
 	//$('header .navbar .container').prepend(frappe.render_template("sidebar-toggle"));
 	// $('header .navbar .container').remove(frappe.render_template("#navbar-breadcrumbs"));
 	$('.main-section').append(frappe.render_template("main-sidebar"));
