@@ -473,16 +473,18 @@
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>span:not(.pull-right),.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>.treeview-menu {
   display: block !important;
   position: absolute;
-  width: 200px;
-  left: 21px;
-  background: #7B6C40;
-  z-index: -1;
+  width: 100px;
+  left: 60px;
+  background: rgba(123, 108, 64, 0.79);
+  z-index: 1000;
+  border-radius: 30px;
+  text-align: left;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>span {
   top:0;
-  margin-left:-3px;
-  padding:15px 5px 15px 60px;
-  background-color:inherit
+  margin-left:15px;
+  padding:15px;
+  background-color:inherit;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>.pull-right-container {
   float: right;
