@@ -9,12 +9,13 @@ $(document).ready(function() {
 
 	$('header').addClass('main-header');
 	$('.dropdown-help').addClass('hidden');
-	$('#toolbar-user a:contains(/index)').addClass('hidden');
-	$('#toolbar-user a:contains(#background_jobs)').addClass('hidden');
+	$('#toolbar-user [href*="/index"]').addClass('hidden');
+	$('#toolbar-user [href*="#background_jobs"]').addClass('hidden');
+	$('.dropdown-navbar-new-comments)').addClass('hidden');
 	$('header .navbar').removeClass('navbar-fixed-top');
-	$('.list-filters .btn').removeClass('text-muted');
+	$('.set-filters .btn').removeClass('text-muted');
 	$('#navbar-breadcrumbs').addClass('hidden');
-	$('.navbar-home').addClass('hidden-lg');
+	$('.navbar-home').addClass('hidden');
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');	
 	
@@ -53,7 +54,7 @@ bdtheme.set_user_background = function(src, selector, style){
 	}));
 }
 
-frappe.templates["logo"] = '<a href="/desk" class="logo">'
+frappe.templates["logo"] = '<a href="/desk#List/Customer/List" class="logo">'
 +     ' <span class="logo-mini"><b>bd</b></span>'
 +'      <span class="logo-lg"><b>bdoop</b></span>'
 +'    </a>';
