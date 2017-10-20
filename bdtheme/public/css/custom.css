@@ -161,7 +161,7 @@ header .dropdown-help {
     color: #666666;
     border: none;
     font-weight: normal;
-    top: -6px;
+    top: 2px;
     position: relative;
 }
 
@@ -169,7 +169,7 @@ header .dropdown-help {
     max-width: 160px;
     display: inline-block;
     line-height: 2em;
-    padding: 8px;
+    padding: 6px;
     font-weight: 300;
 }
 
