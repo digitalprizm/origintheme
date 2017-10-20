@@ -148,6 +148,12 @@ header .dropdown-help {
     background-color: #f0f0f0;
     border-radius: 10px;
 }
+.avatar-small {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    vertical-align: baseline;
+}
 
 .avatar-small .standard-image {
     width: 32px;
