@@ -10,7 +10,7 @@
         "public/js/custom.js"
     ],
     "js/bdtheme-template.min.js": [
-        "public/js/template/main-sidebar.html"
+        "public/js/template/stacey-sidebar.html"
     ]
     
 }

@@ -1,14 +1,19 @@
 $(document).ready(function() {
 	$('header').prepend(frappe.render_template("logo"));
+	$('.toggle-sidebar').prepend(frappe.render_template("comapny-name"));
 	//$('header .navbar .container').prepend(frappe.render_template("sidebar-toggle"));
 	// $('header .navbar .container').remove(frappe.render_template("#navbar-breadcrumbs"));
 	$('.main-section').append(frappe.render_template("main-sidebar"));
 	// $('.page-container').remove('.page-head');
-	//$('.layout-main-section').prepend(frappe.onload_post_render('.page-head'));
+	// $('.layout-main-section').prepend(frappe.onload_post_render('.page-head'));
 
 	$('header').addClass('main-header');
+	$('.dropdown-help').addClass('hidden');
+	$('#toolbar-user a:contains(/index)').addClass('hidden');
+	$('#toolbar-user a:contains(#background_jobs)').addClass('hidden');
 	$('header .navbar').removeClass('navbar-fixed-top');
-	// $('#navbar-breadcrumbs').addClass('hidden-item');
+	$('list-filters').removeClass('text-muted');
+	 $('#navbar-breadcrumbs').addClass('hidden');
 	$('.navbar-home').addClass('hidden-lg');
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');	
@@ -54,5 +59,9 @@ frappe.templates["logo"] = '<a href="/desk" class="logo">'
 +'    </a>';
 
 frappe.templates["sidebar-toggle"] = '<a href="#" class="sidebar-toggle hidden-item" data-toggle="offcanvas" role="button">'
++	        '<span class="sr-only">Toggle navigation</span>'
++	    '</a>';
+
+frappe.templates["company-name"] = '<a href="#" class="sidebar-toggle hidden-item" data-toggle="offcanvas" role="button">'
 +	        '<span class="sr-only">Toggle navigation</span>'
 +	    '</a>';

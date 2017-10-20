@@ -24,6 +24,21 @@ body {
     border-color: #ded0b0;
 }
 
+input.form-control::-moz-placeholder {
+    color: #c5c7c7 !important;
+    opacity: 1;
+  }
+  input.form-control:-moz-placeholder {
+    color: #c5c7c7 !important;
+    opacity: 1;
+  }
+  input.form-control:-ms-input-placeholder {
+    color: #c5c7c7 !important;
+  }
+  input.form-control::-webkit-input-placeholder {
+    color: #c5c7c7 !important;
+  }
+
 /** Who Theme App **/
 
 #page-desktop {
@@ -56,6 +71,12 @@ header .container {
 @media (min-width: 768px) {
 .navbar-nav {
     float: left;
+}
+}
+
+@media (min-width: 768px) {
+.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse {
+    margin: 18px 20px;
 }
 }
 .navbar-brand {
@@ -149,10 +170,10 @@ header .dropdown-help {
     display: inline-block;
     line-height: 2em;
     padding: 8px;
+    font-weight: 300;
 }
 
 .dropdown-menu {
-    min-width: 150px;
     padding: 0 6px;
     font-size: 12px;
     max-height: 400px;
@@ -171,6 +192,19 @@ header .dropdown-help {
     padding: 2px 8px;
     margin: 7px 20px 0 0;
     font-weight: 500;
+}
+
+.navbar .navbar-search-icon {
+    color: #86754e;
+    font-size: inherit;
+    position: relative;
+    right: 30px;
+    top: 0;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: rgba(47, 52, 52, 0);
 }
 
 .main-header .sidebar-toggle {
