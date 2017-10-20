@@ -2,13 +2,13 @@
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
-app_name = "whotheme"
-app_title = "Who Theme"
-app_publisher = "Who Agency"
-app_description = "Side menu navigation theme"
+app_name = "bdtheme"
+app_title = "bd theme"
+app_publisher = "vinhbk2000"
+app_description = "bd theme"
 app_icon = "octicon octicon-file-directory"
-app_color = "blue"
-app_email = "josh@whoagency.com"
+app_color = "grey"
+app_email = "vinhbk2000@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>
