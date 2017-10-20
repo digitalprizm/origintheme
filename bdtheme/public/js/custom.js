@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$('.toggle-sidebar').prepend(frappe.render_template("company-name"));
 	//$('header .navbar .container').prepend(frappe.render_template("sidebar-toggle"));
 	// $('header .navbar .container').remove(frappe.render_template("#navbar-breadcrumbs"));
-	$('.main-section').append(frappe.render_template("main-sidebar"));
+	$('.main-section').append(frappe.render_template("stacey-sidebar"));
 	// $('.page-container').remove('.page-head');
 	// $('.layout-main-section').prepend(frappe.onload_post_render('.page-head'));
 
@@ -62,6 +62,4 @@ frappe.templates["sidebar-toggle"] = '<a href="#" class="sidebar-toggle hidden-i
 +	        '<span class="sr-only">Toggle navigation</span>'
 +	    '</a>';
 
-frappe.templates["company-name"] = '<a href="#" class="sidebar-toggle hidden-item" data-toggle="offcanvas" role="button">'
-+	        '<span class="sr-only">Toggle navigation</span>'
-+	    '</a>';
+frappe.templates["company-name"] = '<span style="color: #fff; font-size: 20px; font-weight: 300;">Evaqua Farms</span>';
