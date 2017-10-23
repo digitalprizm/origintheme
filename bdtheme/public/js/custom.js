@@ -5,7 +5,7 @@ $(document).ready(function() {
 	// $('header .navbar .container').remove(frappe.render_template("#navbar-breadcrumbs"));
 	$('.main-section').append(frappe.render_template("stacey-sidebar"));
 	// $('.page-container').remove('.page-head');
-	// $('.layout-main-section').prepend(frappe.onload_post_render('.page-head'));
+	// $('.layout-main-section').prependTo('.page-head');
 
 	$('header').addClass('main-header');
 	$('.dropdown-help').addClass('hidden');
@@ -13,15 +13,20 @@ $(document).ready(function() {
 	$('#toolbar-user [href*="#background_jobs"]').addClass('hidden');
 	$('.dropdown-navbar-new-comments').addClass('hidden');
 	$('header .navbar').removeClass('navbar-fixed-top');
-	$('.set-filters .btn').removeClass('text-muted');
+	
 	$('#navbar-breadcrumbs').addClass('hidden');
 	$('.navbar-home').addClass('hidden');
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
-	$('#body_div').addClass('content-wrapper');	
+	$('#body_div').addClass('content-wrapper');
+	$('.set-filters .btn').removeClass('text-muted');	
 	
 	bdtheme.set_user_background();
 	
 });
+
+$(document).on('change', function() {
+	$('.page-head').prependTo('.layout-main-section');
+}
 
 frappe.provide("bdtheme");
 
@@ -53,6 +58,28 @@ bdtheme.set_user_background = function(src, selector, style){
 		style: ""
 	}));
 }
+
+// bdtheme.desk_2 = function(){
+// 	if(!selector) selector = "#page-desktop";
+// 	if(!style) style = "Fill Screen";
+// 	if(src) {
+// 		if (window.cordova && src.indexOf("http") === -1) {
+// 			src = frappe.base_url + src;
+// 		}
+// 		var background = repl('background: url("%(src)s") center center;', {src: src});
+// 	} else {
+// 		var background = "background-color: #FFFFFF;";
+// 	}
+
+// 	frappe.dom.set_style(repl('%(selector)s { \
+// 		%(background)s \
+// 		%(style)s \
+// 	}', {
+// 		selector:selector,
+// 		background:background,
+// 		style: ""
+// 	}));
+// }
 
 frappe.templates["logo"] = '<a href="/desk#List/Customer/List" class="logo">'
 +     ' <span class="logo-mini"><b>bd</b></span>'
