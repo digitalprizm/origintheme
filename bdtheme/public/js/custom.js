@@ -24,9 +24,9 @@ $(document).ready(function() {
 	
 });
 
-$(document).on('change', function() {
-	$('.page-head').prependTo('.layout-main-section');
-}
+// $(document).on('change', function() {
+// 	$('.page-head').prependTo('.layout-main-section');
+// });
 
 frappe.provide("bdtheme");
 
