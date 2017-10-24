@@ -1,11 +1,7 @@
 $(document).ready(function() {
 	$('header').prepend(frappe.render_template("logo"));
 	$('.navbar-desk').prepend(frappe.render_template("company-name"));
-	//$('header .navbar .container').prepend(frappe.render_template("sidebar-toggle"));
-	// $('header .navbar .container').remove(frappe.render_template("#navbar-breadcrumbs"));
 	$('.main-section').append(frappe.render_template("stacey-sidebar"));
-	// $('.page-container').remove('.page-head');
-	// $('.layout-main-section').prependTo('.page-head');
 
 	$('header').addClass('main-header');
 	$('.dropdown-help').addClass('hidden');
@@ -18,15 +14,18 @@ $(document).ready(function() {
 	$('.navbar-home').addClass('hidden');
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');
-	$('.set-filters .btn').removeClass('text-muted');	
+	// $('.set-filters .btn').removeClass('text-muted');	
 	
 	bdtheme.set_user_background();
 	
 });
 
-// $(document).on('change', function() {
-// 	$('.page-head').prependTo('.layout-main-section');
-// });
+// var prepend_title = false;
+
+$(document).on('change', function() {
+	$('.page-container:visible').children('.page-head:visible').prependTo('.layout-main-section:visible');
+	$('.set-filters .btn').removeClass('text-muted');
+});
 
 frappe.provide("bdtheme");
 
