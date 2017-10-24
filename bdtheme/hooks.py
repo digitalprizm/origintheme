@@ -4,11 +4,11 @@ from . import __version__ as app_version
 
 app_name = "bdtheme"
 app_title = "bd theme"
-app_publisher = "vinhbk2000"
+app_publisher = "Who Agency"
 app_description = "bd theme"
-app_icon = "octicon octicon-file-directory"
-app_color = "grey"
-app_email = "vinhbk2000@gmail.com"
+app_icon = "fa fa-flame"
+app_color = "gold"
+app_email = "josh@whoagency.com"
 app_license = "MIT"
 
 # Includes in <head>
@@ -43,7 +43,7 @@ web_include_css = "/assets/bdtheme/css/bdtheme-web.css"
 # ----------
 website_context = {
 	"favicon": 	"/assets/bdtheme/images/favicon.png",
-	"splash_image": "/assets/bdtheme/images/icon.png"
+	"splash_image": "/assets/bdtheme/images/icon.svg"
 }
 # application home page (will override Website Settings)
 # home_page = "login"
