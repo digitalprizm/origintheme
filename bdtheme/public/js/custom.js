@@ -14,7 +14,6 @@ $(document).ready(function() {
 	$('.navbar-home').addClass('hidden');
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');
-	// $('.set-filters .btn').removeClass('text-muted');	
 	
 	bdtheme.set_user_background();
 	
@@ -22,10 +21,10 @@ $(document).ready(function() {
 
 // var prepend_title = false;
 
-$(document).on('change', function() {
-	$('.page-container:visible').children('.page-head:visible').prependTo('.layout-main-section:visible');
-	$('.set-filters .btn').removeClass('text-muted');
-});
+// $('.page-container').on('load', function() {
+// 	$('.page-container:visible').children('.page-head:visible').prependTo('.layout-main-section:visible');
+// 	$('.set-filters .btn').removeClass('text-muted');
+// });
 
 frappe.provide("bdtheme");
 
