@@ -235,13 +235,13 @@ header .dropdown-help {
 
 .main-header .logo .logo-lg {
     background: #2f3333 url(/assets/bdtheme/images/logo.svg) center no-repeat;
-    background-size: auto 36px;
+
     text-indent: -99em;
 }
 
 .main-header .logo .logo-mini {
     background: #2f3333 url(/assets/bdtheme/images/icon.svg) center no-repeat;
-    background-size: auto 28px;
+
     text-indent: -99em;
 }
 
