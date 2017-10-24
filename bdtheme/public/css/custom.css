@@ -234,13 +234,13 @@ header .dropdown-help {
 }
 
 .main-header .logo .logo-lg {
-    background: #367fa9 url(/assets/bdtheme/images/logo.png) center no-repeat;
+    background: #2f3333 url(/assets/bdtheme/images/logo.svg) center no-repeat;
     background-size: auto 36px;
     text-indent: -99em;
 }
 
 .main-header .logo .logo-mini {
-    background: #2f3333 url(/assets/bdtheme/images/icon.png) center no-repeat;
+    background: #2f3333 url(/assets/bdtheme/images/icon.svg) center no-repeat;
     background-size: auto 28px;
     text-indent: -99em;
 }
@@ -342,7 +342,7 @@ h6.uppercase,
 }
 
 .form-inner-toolbar {
-    background-color: none;
+    background-color: #f0f0f0;
 }
 
 .form-section:not(:last-child),
