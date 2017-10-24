@@ -558,6 +558,9 @@
     z-index: 9998;
 }
 
+.help-link {
+  display: none;
+}
 
 
 
