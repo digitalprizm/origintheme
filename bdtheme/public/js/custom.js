@@ -19,13 +19,29 @@ $(document).ready(function() {
 	
 });
 
-// var prepend_title = false;
-
 // $('.page-container').on('load', function() {
 // 	$('.page-container:visible').children('.page-head:visible').prependTo('.layout-main-section:visible');
 // 	$('.set-filters .btn').removeClass('text-muted');
 // });
 
+// document.body.addEventListener('DOMSubtreeModified', function () {
+// 	if ($(!'.page-head .page-head-moved')) {
+// 		$('div.page-container > .page-head').prependTo('.layout-main-section');
+// 	}
+// }, false);
+// 		$('.page-container:visible').children('.page-head:visible').prependTo('.layout-main-section:visible');
+// 		$('.set-filters .btn').removeClass('text-muted');
+// 		console.log('hi')
+// 	}
+//    }, false);
+//    document.body.addEventListener('DOMSubtreeModified', function () {
+// 	if($('.page-container > .page-head')) {
+// 		$('.page-container:visible').children('.page-head:visible').prependTo('.layout-main-section:visible');
+// 		$('.set-filters .btn').removeClass('text-muted');
+// 		console.log('hi')
+// 	}
+//    }, false);
+//    if (element2.parentNode == element1)
 frappe.provide("bdtheme");
 
 // add toolbar icon
@@ -80,8 +96,8 @@ bdtheme.set_user_background = function(src, selector, style){
 // }
 
 frappe.templates["logo"] = '<a href="/desk#List/Customer/List" class="logo">'
-+     ' <span class="logo-mini"><b>bd</b></span>'
-+'      <span class="logo-lg"><b>bdoop</b></span>'
++     ' <span class="logo-mini"><b>or</b></span>'
++'      <span class="logo-lg"><b>Origin Aquatech</b></span>'
 +'    </a>';
 
 frappe.templates["sidebar-toggle"] = '<a href="#" class="sidebar-toggle hidden-item" data-toggle="offcanvas" role="button">'

@@ -234,7 +234,7 @@ header .dropdown-help {
 }
 
 .main-header .logo .logo-lg {
-    background: #2f3333 url(/assets/bdtheme/images/logo.svg) center no-repeat;
+    background: #2f3333 url(/assets/bdtheme/images/icon.svg) center no-repeat;
 
     text-indent: -99em;
 }
@@ -457,6 +457,34 @@ h6.uppercase,
     border-radius: 20px;
 }
 
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    color: white;
+    background-color: #69655a;
+    border-color: #524f48;
+}
+.btn-primary .badge {
+    color: white;
+    background-color: #69655a;
+    border-color: #524f48;
+
+}
 .timeline-head .comment-input-header {
     background-color: #f0f0f0;
     padding: 7px 15px;
