@@ -452,6 +452,10 @@
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li {
   position:relative;
   margin: 10px 0 10px 0;
+ }
+ .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover {
+  position:relative;
+  margin: 10px 0 10px 0;
   width: 160px;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a {
