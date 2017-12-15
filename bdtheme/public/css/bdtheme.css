@@ -452,6 +452,7 @@
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li {
   position:relative;
   margin: 10px 0 10px 0;
+  width: 160px;
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a {
   margin-right:0
@@ -473,9 +474,8 @@
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>span:not(.pull-right),.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>.treeview-menu {
   display: block !important;
   position: absolute;
-  width: 100px;
-  left: 60px;
-  background: rgba(123, 108, 64, 0.79);
+  left: 25px;
+  background: rgba(123, 108, 64, 1.0);
   z-index: 1000;
   border-radius: 30px;
   text-align: left;
