@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('header').prepend(frappe.render_template("logo"));
 	$('.navbar-desk').prepend(frappe.render_template("company-name"));
-	$('.main-section').append(frappe.render_template("main-sidebar"));
+	$('.main-section').append(frappe.render_template("stacey-sidebar"));
 
 	$('header').addClass('main-header');
 	$('.dropdown-help').addClass('hidden');
