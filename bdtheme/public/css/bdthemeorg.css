@@ -2,7 +2,6 @@
  * Component: Main Header
  * ----------------------
  */
-
 .main-header {
   position: relative;
   max-height: 100px;
@@ -13,9 +12,9 @@
   -o-transition: margin-left 0.3s ease-in-out;
   transition: margin-left 0.3s ease-in-out;
   margin-bottom: 0;
-  margin-left: 200px;
+  margin-left: 230px;
   border: none;
-  min-height: 60px;
+  min-height: 50px;
   border-radius: 0;
 }
 .layout-top-nav .main-header .navbar {
@@ -43,26 +42,7 @@
 .main-header .navbar-custom-menu,
 .main-header .navbar-right {
   float: right;
-  display: flex;
-    align-items: center;
 }
-
-.tag-filters-area {
-  padding: 15px 0px 0px 0px;
-  border-bottom: 1px solid #e4e4e4;
-}
-
-.filter-list .sort-selector {
-  position: absolute;
-  top: 15px;
-  right: 0;
-}
-
-li.user-progress .progress-chart {
-  width: 50px;
-  margin-top: 0;
-}
-
 @media (max-width: 991px) {
   .main-header .navbar-custom-menu a,
   .main-header .navbar-right a {
@@ -88,7 +68,7 @@ li.user-progress .progress-chart {
   background-image: none;
   padding: 0 20px;
   font-family: fontAwesome;
-  line-height:60px;
+  line-height:50px;
   margin-right:10px;
 }
 .main-header .sidebar-toggle:before {
@@ -124,13 +104,14 @@ li.user-progress .progress-chart {
   transition: width 0.3s ease-in-out;
   display: block;
   float: left;
+  height: 50px;
   font-size: 20px;
-  line-height: 65px;
+  line-height: 50px;
   text-align: center;
-  width: 200px;
+  width: 230px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
-  font-weight: 100;
+  font-weight: 300;
   overflow: hidden;
 }
 .main-header .logo .logo-lg {
@@ -200,7 +181,6 @@ li.user-progress .progress-chart {
   border: 0;
   margin: 0;
   padding: 15px 15px;
-  visibility: hidden;
 }
 @media (max-width: 991px) {
   .navbar-custom-menu .navbar-nav > li {
@@ -249,11 +229,11 @@ li.user-progress .progress-chart {
  */
 .main-sidebar,.left-side {
  position:absolute;
- top:15px;
-
- /* left:0; */
+ top:0;
+ left:0;
  padding-top:50px;
- width:200px;
+ min-height:100%;
+ width:230px;
  z-index:810;
  -webkit-transition:-webkit-transform .3s ease-in-out,width .3s ease-in-out;
  -moz-transition:-moz-transform .3s ease-in-out,width .3s ease-in-out;
@@ -267,18 +247,18 @@ li.user-progress .progress-chart {
 }
 @media (max-width:767px) {
  .main-sidebar,.left-side {
-  -webkit-transform:translate(-200px, 0);
-  -ms-transform:translate(-200px, 0);
-  -o-transform:translate(-200px, 0);
-  transform:translate(-200px, 0)
+  -webkit-transform:translate(-230px, 0);
+  -ms-transform:translate(-230px, 0);
+  -o-transform:translate(-230px, 0);
+  transform:translate(-230px, 0)
  }
 }
 @media (min-width:768px) {
  .sidebar-collapse .main-sidebar,.sidebar-collapse .left-side {
-  -webkit-transform:translate(-200px, 0);
-  -ms-transform:translate(-200px, 0);
-  -o-transform:translate(-200px, 0);
-  transform:translate(-200px, 0)
+  -webkit-transform:translate(-230px, 0);
+  -ms-transform:translate(-230px, 0);
+  -o-transform:translate(-230px, 0);
+  transform:translate(-230px, 0)
  }
 }
 @media (max-width:767px) {
@@ -342,71 +322,13 @@ li.user-progress .progress-chart {
  margin:0;
  padding:0
 }
-
-.main-sidebar .sidebar-menu>li:hover {
-  background-color: #7b6c41;
-  border-radius: 0 25px 25px 0;
-}
-
-.main-sidebar .sidebar-menu>li:active {
-  background-color: #7b6c41;
-  border-radius: 0 25px 25px 0;
-}
-
 .main-sidebar .sidebar-menu>li>a {
- padding: 6px 6px 6px 14px;
- display: block
+ padding:12px 5px 12px 15px;
+ display:block
 }
 .main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
-
-  font-size: 18px;
-  background-color: #f0f0f0;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  color: #2f3333;
-  z-index: 9999;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
+ width:20px
 }
-
-.main-sidebar .sidebar-menu>li>a>.ma{
-
-  font-size: 20px;
-  background-color: #f0f0f0;
-  width: 38px;
-  height: 38px;
-  border-radius: 50%;
-  color: #2f3333;
-  z-index: 9999;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.main-sidebar .sidebar-menu>li:hover>a>.fa,
-.main-sidebar .sidebar-menu>li:hover>a>.glyphicon,
-.main-sidebar .sidebar-menu>li:hover>a>.ion,
-.main-sidebar .sidebar-menu>li:active>a>.fa,
-.main-sidebar .sidebar-menu>li:active>a>.glyphicon,
-.main-sidebar .sidebar-menu>li:active>a>.ion{
-  
-  background-color: #252525;
-  color: white;
-}
-
-.main-sidebar .sidebar-menu>li:hover>a>.ma,
-.main-sidebar .sidebar-menu>li:active>a>.ma{
-  
-  background-color: #252525;
-  color: white;
-}
-
 .main-sidebar .sidebar-menu>li .label,.main-sidebar .sidebar-menu>li .badge {
  margin-right:5px
 }
@@ -418,12 +340,10 @@ li.user-progress .progress-chart {
  font-size:12px
 }
 .main-sidebar .sidebar-menu li>a>.fa-angle-left,.main-sidebar .sidebar-menu li>a>.pull-right-container>.fa-angle-left {
-  width: auto;
-  height: auto;
-  padding: 0;
-  margin-right: 12px;
-  font-size: 20px;
-  opacity: .4;
+ width:auto;
+ height:auto;
+ padding:0;
+ margin-right:10px
 }
 .main-sidebar .sidebar-menu li.active>a>.fa-angle-left,.main-sidebar .sidebar-menu li.active>a>.pull-right-container>.fa-angle-left {
  -webkit-transform:rotate(-90deg);
@@ -448,25 +368,13 @@ li.user-progress .progress-chart {
  margin:0
 }
 .main-sidebar .sidebar-menu .treeview-menu>li>a {
- padding:5px 5px 5px 10px;
+ padding:5px 5px 5px 15px;
  display:block;
- font-size:14px;
- line-height: 1.8;
+ font-size:14px
 }
 .main-sidebar .sidebar-menu .treeview-menu>li>a>.fa,.main-sidebar .sidebar-menu .treeview-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu .treeview-menu>li>a>.ion {
- width:22px;
- line-height: 1.7;
- position: relative;
- left: -3px;
- text-align: center;
- font-size: 20px;
- text-decoration: none;
+ width:20px
 }
-
-.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa_bullet{
-  font-size: 12px;
-}
-
 .main-sidebar .sidebar-menu .treeview-menu>li>a>.pull-right-container>.fa-angle-left,.main-sidebar .sidebar-menu .treeview-menu>li>a>.pull-right-container>.fa-angle-down,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa-angle-left,.main-sidebar .sidebar-menu .treeview-menu>li>a>.fa-angle-down {
  width:auto
 }
@@ -475,7 +383,7 @@ li.user-progress .progress-chart {
  */
 @media (min-width:768px) {
  .sidebar-mini.sidebar-collapse .content-wrapper,.sidebar-mini.sidebar-collapse .right-side,.sidebar-mini.sidebar-collapse .main-footer {
-  margin-left:70px !important;
+  margin-left:50px !important;
   z-index:840
  }
  .sidebar-mini.sidebar-collapse .main-sidebar {
@@ -483,20 +391,13 @@ li.user-progress .progress-chart {
   -ms-transform:translate(0, 0);
   -o-transform:translate(0, 0);
   transform:translate(0, 0);
-  width:58px !important;
-  z-index:850;
-  border-radius: 10px;
-  background-color: #fff;
-  top: 30px;
+  width:50px !important;
+  z-index:850
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li {
-  position:relative;
-  margin: 10px 0 10px 0;
+  position:relative
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a {
-  margin-right:0
- }
- .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a {
   margin-right:0
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a>span {
@@ -511,67 +412,48 @@ li.user-progress .progress-chart {
   border-bottom-right-radius:4px
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>span:not(.pull-right),.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>.treeview-menu {
-  display: block !important;
-  position: absolute;
-  left: 25px;
-  background: rgba(123, 108, 64, 1.0);
-  z-index: 1000;
-  border-radius: 0 25px 25px 0;
-  text-align: left;
+  display:block !important;
+  position:absolute;
+  width:180px;
+  left:50px
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>span {
-  top: 0;
-  width: 240px;
-  padding: 15px 0px 15px 55px;
-  background-color: inherit;
-  overflow: hidden;
-  font-size: 14px;
-  font-weight: bold;
+  top:0;
+  margin-left:-3px;
+  padding:12px 5px 12px 20px;
+  background-color:inherit
  }
-
- .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a> .treeview-single {
-  padding: 15px 35px 15px 45px;
-  width: auto;
- }
-
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>.pull-right-container {
-  float: right;
-  width: auto!important;
-  left: 199px!important;
-  top: 7px!important;
-  height: 100%;
-  border-radius: 0 25px 0 0;
+  float:right;
+  width:auto!important;
+  left:200px!important;
+  top:10px!important
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a>.pull-right-container>.label:not(:first-of-type) {
   display:none
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>.treeview-menu {
-  top: 22px;
-    margin-left: 40px;
-    border-radius: 0 0 25px 25px;
-    width: 200px;
-    padding: 25px 0 15px 0;
-    z-index: 1;
+  top:44px;
+  margin-left:0
  }
  .sidebar-mini.sidebar-collapse .main-sidebar .user-panel>.info,.sidebar-mini.sidebar-collapse .sidebar-form,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a>span,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>.treeview-menu,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a>.pull-right,.sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu li.header {
   display:none !important;
   -webkit-transform:translateZ(0)
  }
  .sidebar-mini.sidebar-collapse .main-header .logo {
-  width:65px
+  width:50px
  }
  .sidebar-mini.sidebar-collapse .main-header .logo>.logo-mini {
   display:block;
   margin-left:-15px;
   margin-right:-15px;
-  font-size:17px;
-  border-radius: 0 0 15px 0;
+  font-size:18px
  }
  .sidebar-mini.sidebar-collapse .main-header .logo>.logo-lg {
   display:none
  }
  .sidebar-mini.sidebar-collapse .main-header .navbar {
-  margin-left:65px
+  margin-left:50px
  }
 }
 .main-sidebar .sidebar-menu,.main-sidebar .user-panel,.main-sidebar .sidebar-menu>li.header {
@@ -599,7 +481,7 @@ li.user-progress .progress-chart {
     /* full screen */
     width: 100vw;
     height: 100vh;
-    /* transparent #2f3333 */
+    /* transparent black */
     background: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0;
@@ -608,10 +490,4 @@ li.user-progress .progress-chart {
     /* middle layer, i.e. appears below the sidebar */
     z-index: 9998;
 }
-
-.help-link {
-  display: none !important;
-}
-
-
 

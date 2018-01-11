@@ -6,8 +6,8 @@ def get_data():
 	return [
 		{
 			"module_name": "bd theme",
-			"color": "grey",
-			"icon": "octicon octicon-file-directory",
+			"color": "gold",
+			"icon": "fa fa-paint-brush",
 			"type": "module",
 			"label": _("bd theme")
 		}

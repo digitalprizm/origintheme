@@ -3,40 +3,63 @@
     <section class="sidebar">
         <!-- sidebar menu: : style can be found in sidebar.less -->
         <ul class="sidebar-menu">
-            <li class="treeview">
-                <a href="#List/Customer" data-toggle="tooltip" data-placement="right" title=" Customers">
-                    <i class="fa fa-address-book-o"></i>
+            <li class="treeview treeview-single">
+                <a href="#List/Customer">
+                    <i class="ma material-icons">contacts</i>
+                    <span class="treeview-single"> Customers</span>
+                </a>
+            </li>
+            <li class="treeview treeview-single">
+                <a href="#List/Sales Order">
+                    <i class="ma material-icons">shopping_cart</i> 
+                    <span class="treeview-single"> Orders</span>
+                </a>
+            </li>
+            <li class="treeview treeview-single">
+                <a href="#List/Item">
+                    <i class="fa fa-cubes"></i>
+                    <span class="treeview-single"> Products</span>
+                </a>
+            </li>
+            <li class="treeview treeview-single">
+                <a href="#List/Transporter">
+                    <i class="ma material-icons">local_shipping</i> 
+                    <span class="treeview-single"> Transporters</span>
                 </a>
             </li>
             <li class="treeview">
-                <a href="#List/Sales Order" data-toggle="tooltip" data-placement="right" title=" Orders">
-                    <i class="fa fa-shopping-cart"></i>
+                <a href="#List/Supplier">
+                    <i class="ma material-icons">flight_land</i> 
+                    <span class="treeview-single"> Suppliers</span>
                 </a>
             </li>
-            <li class="treeview">
-                <a href="#List/Item" data-toggle="tooltip" data-placement="right" title=" Inventory">
-                    <i class="fa fa-cubes" ></i>
-                </a>
-            </li>
-            <li class="treeview">
-                <a href="#List/Price List" data-toggle="tooltip" data-placement="right" title=" Price Lists">
-                    <i class="fa fa-book"></i>
-                </a>
-            </li>
-            <li class="treeview">
-                <a href="#List/Transporter" data-toggle="tooltip" data-placement="right" title=" Shipping">
-                    <i class="fa fa-truck"></i>
-                </a>
-            </li>
-            <li class="treeview">
-                <a href="#List/Supplier" data-toggle="tooltip" data-placement="right" title=" Suppliers">
-                    <i class="fa fa-handshake-o"></i> Suppliers
-                </a>
-            </li>
-            <li class="treeview">
+            <li class="treeview ">
                 <a href="#">
-                    <i class="fa fa-calculator"></i>
-                    <span>Finance</span>
+                    <i class="ma material-icons">record_voice_over</i>
+                    <span> CRM</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li>
+                        <a href="#List/Lead">
+                            <i class="fa_bullet fa fa-circle-o"></i> Leads</a>
+                    </li>
+                    <li>
+                        <a href="#List/Opportunity">
+                            <i class="fa_bullet fa fa-circle-o"></i> Opportunities</a>
+                    </li>
+                    <li>
+                        <a href="#List/Contact">
+                            <i class="fa_bullet fa fa-circle-o"></i> Contacts</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="treeview ">
+                <a href="#">
+                    <i class="ma material-icons">account_balance</i>
+                    <span> Finance</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
@@ -78,8 +101,8 @@
             </li>
             <li class="treeview">
                 <a href="#">
-                    <i class="fa fa-calculator"></i>
-                    <span>Bookkeeping</span>
+                    <i class="ma material-icons">attach_money</i>
+                    <span> Bookkeeping</span>
                     <span class="pull-right-container">
                         <i class="fa fa-angle-left pull-right"></i>
                     </span>
@@ -103,10 +126,10 @@
                     </li>
                 </ul>
             </li>
-            <li>
+            <li class="treeview treeview-single">
                 <a href="#modules/Setup">
-                    <i class="fa fa-cog"></i>
-                    <span>Setup</span>
+                    <i class="ma material-icons">settings</i>
+                    <span class="treeview-single"> Settings</span>
                 </a>
             </li>
         </ul>

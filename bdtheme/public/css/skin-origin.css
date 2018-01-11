@@ -31,7 +31,9 @@
 }
 .skin-origin .main-header .navbar .nav > li > a {
   color: white;
+  height: auto !important;
 }
+
 .skin-origin .main-header .navbar .nav > li > a:hover,
 .skin-origin .main-header .navbar .nav > li > a:active,
 .skin-origin .main-header .navbar .nav > li > a:focus,
@@ -66,7 +68,7 @@
 }
 .skin-origin .main-header .logo {
   /* background-color: #ff0000; */
-  color: whitefff;
+  color: white;
   border-bottom: 0 solid transparent;
 }
 .skin-origin .main-header .logo:hover {
