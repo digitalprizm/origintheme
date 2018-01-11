@@ -44,7 +44,8 @@
 .main-header .navbar-right {
   float: right;
   display: flex;
-    align-items: center;
+  align-items: center;
+  padding-right: 10px;
 }
 
 .tag-filters-area {
