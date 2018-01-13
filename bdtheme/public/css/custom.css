@@ -43,7 +43,9 @@ input.form-control::-moz-placeholder {
 #body_div {
     background: #FFFFFF
 }
-
+.page-body {
+    overflow-x: unset;
+}
 
 /* .main-section{ background: #222d32} */
 
