@@ -232,7 +232,8 @@ header .dropdown-help {
 */
 
 #page-desktop {
-    background-color: #FFFFFF !important
+    background-color: #FFFFFF !important;
+    visibility: hidden !important;;
 }
 
 .main-header .logo .logo-lg {
