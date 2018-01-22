@@ -595,7 +595,18 @@ li.user-progress .progress-chart {
  top:50%;
  margin-top:-7px
 }
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  color: inherit;
+  background-color: #f0f0f0;
+}
 
+.module-section:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+  text-decoration: none;
+  background-color: #f9f9f9;
+}
 .overlay {
     /* full screen */
     width: 100vw;
