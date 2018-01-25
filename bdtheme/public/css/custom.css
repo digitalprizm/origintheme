@@ -1,3 +1,8 @@
+/** Who Theme App - Hide **/
+.module-link[href="#modules/Learn"]{
+	display:none;
+}
+
 /** Who Theme App - Inset **/
 
 html {
