@@ -13,12 +13,13 @@ html {
 .page-title h1 {
     margin-top: 17px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 200;
 }
 
 span.navbar-company {
     color: #fff;
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 200;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -288,6 +289,15 @@ h6.uppercase,
     font-size: 18px;
     text-transform: none;
     font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+.form-documents h6 {
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #666;
 }
 
 .control-label,
@@ -370,8 +380,8 @@ h6.uppercase,
 }
 
 
-.form-section,
-.form-inner-toolbar {
+.form-section:not(:last-child), 
+.form-inner-toolbar{
     border-top: 1px solid #eaeaea;
     border-bottom: none;
 }
