@@ -9,7 +9,7 @@ $(document).ready(function() {
 	$('.dropdown-help').addClass('hidden');
 	$('#toolbar-user [href*="/index"]').addClass('hidden');
 	$('#toolbar-user [href*="#background_jobs"]').addClass('hidden');
-	$('.dropdown-navbar-new-comments').addClass('hidden');
+	// $('.dropdown-navbar-new-comments').addClass('hidden');
 	$('header .navbar').removeClass('navbar-fixed-top');
 	
 	$('#navbar-breadcrumbs').addClass('hidden');
