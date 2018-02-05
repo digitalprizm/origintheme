@@ -106,7 +106,7 @@ frappe.templates["sidebar-toggle"] = '<a href="#" class="sidebar-toggle hidden-i
 +	        '<span class="sr-only">Toggle navigation</span>'
 +	    '</a>';
 
-frappe.templates["company-name"] = '<span style="color: #fff; font-size: 20px; font-weight: 300;">Evaqua Farms</span>';
+frappe.templates["company-name"] = '<span class="navbar-company">Evaqua Farms</span>';
 
 frappe.templates["material-icons"] = '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
-frappe.templates["poppins"] = '<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">';
+frappe.templates["poppins"] = '<link href="https://fonts.googleapis.com/css?family=Poppins:300,400" rel="stylesheet">';
