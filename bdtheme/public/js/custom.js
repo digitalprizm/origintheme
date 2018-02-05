@@ -3,6 +3,8 @@ $(document).ready(function() {
 	$('.navbar-desk').prepend(frappe.render_template("company-name"));
 	$('.main-section').append(frappe.render_template("main-sidebar"));
 	$('head').append(frappe.render_template("material-icons"));
+	$('head').append(frappe.render_template("poppins"));
+
 	$('header').addClass('main-header');
 	$('.dropdown-help').addClass('hidden');
 	$('#toolbar-user [href*="/index"]').addClass('hidden');
@@ -107,3 +109,4 @@ frappe.templates["sidebar-toggle"] = '<a href="#" class="sidebar-toggle hidden-i
 frappe.templates["company-name"] = '<span style="color: #fff; font-size: 20px; font-weight: 300;">Evaqua Farms</span>';
 
 frappe.templates["material-icons"] = '<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">';
+frappe.templates["poppins"] = '<link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">';

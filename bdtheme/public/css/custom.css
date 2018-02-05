@@ -270,9 +270,12 @@ header .dropdown-help {
     font-weight: normal
 }
 
-h6.uppercase,
+h6.uppercase, 
 .h6.uppercase {
     color: #666666;
+    font-size: 18px;
+    text-transform: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 .control-label,
