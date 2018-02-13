@@ -31,6 +31,9 @@ app_include_js = [
 web_include_css = "/assets/bdtheme/css/bdtheme-web.css"
 # web_include_js = "/assets/bdtheme/js/bdtheme.js"
 
+# login
+on_session_creation = "bdtheme.api.on_session_creation"
+
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
 
