@@ -549,3 +549,7 @@ fieldset[disabled] .btn-primary.active {
     top: 0;
     color: #2f3434;
 }
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+    line-height: 2;
+}
