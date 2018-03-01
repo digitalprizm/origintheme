@@ -3,6 +3,9 @@
 	display:none;
 }
 
+.navbar-nav a[href^="#modules/"]{
+    display:none; 
+}
 /** Who Theme App - Inset **/
 
 html {
@@ -216,7 +219,7 @@ header .dropdown-help {
     color: #fff;
     text-align: center;
     padding: 2px 8px;
-    margin: 7px 20px 0 0;
+    /* margin: 7px 20px 0 0; */
     font-weight: 500;
 }
 
