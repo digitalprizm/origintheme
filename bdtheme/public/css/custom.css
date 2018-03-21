@@ -8,6 +8,10 @@
 }
 /** Who Theme App - Inset **/
 
+.modal {
+    z-index: 1040;
+}
+
 html {
     background-color: #d0d0d0;
     padding: 15px;
