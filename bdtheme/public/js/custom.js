@@ -12,7 +12,7 @@ $(document).ready(function() {
 	// $('.dropdown-navbar-new-comments').addClass('hidden');
 	$('header .navbar').removeClass('navbar-fixed-top');
 	
-	$('#navbar-breadcrumbs').addClass('hidden');
+	// $('#navbar-breadcrumbs').addClass('hidden');
 	$('.navbar-home').addClass('hidden');
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');

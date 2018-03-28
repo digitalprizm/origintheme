@@ -120,20 +120,22 @@ header .container {
     -webkit-font-smoothing: antialiased;
     display: inline-block;
     speak: none;
-    font-size: 24px;
+    font-size: 16px;
     transition: 0.2s;
     position: relative;
-    top: 3px;
+    top: 1px;
     content: "\f105";
-    margin-right: 10px;
+    margin-right: 5px;
     color: #86754f;
+    margin-left: 15px;
 }
 
 #navbar-breadcrumbs > li > a {
-    padding: 20px 15px 15px 0px;
-    font-size: 20px;
+    top: 3px;
+    font-size: 12px;
     font-weight: 400;
     color: #86754e;
+    padding: 0px;
 }
 
 .navbar-form {
@@ -457,7 +459,7 @@ h6.uppercase,
 }
 
 .list-item--head {
-    background-color: #f0f0f0;
+    background-color: #f0f0f04f;
     border-bottom: 1px solid #d6d6d6;
     cursor: auto;
 }

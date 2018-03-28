@@ -497,9 +497,10 @@ li.user-progress .progress-chart {
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a {
   margin-right:0
  }
- .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li:hover>a {
-  margin-right:0
- }
+ .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a:hover, a:focus {
+  margin-right: 0;
+  text-decoration: none;
+}
  .sidebar-mini.sidebar-collapse .main-sidebar .sidebar-menu>li>a>span {
   border-top-right-radius:4px
  }
