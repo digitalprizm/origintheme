@@ -564,3 +564,12 @@ fieldset[disabled] .btn-primary.active {
     line-height: 1;
     vertical-align: middle;
 }
+
+label {
+    margin-bottom: 0px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 0;
+    height: auto;
+}
