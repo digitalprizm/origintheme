@@ -1,4 +1,8 @@
 /** Origin Theme App - Hide **/
+.btn[data*="Fri"] {
+    margin-right: 15px;
+}
+
 .module-link[href="#modules/Learn"]{
 	display:none;
 }
@@ -580,8 +584,4 @@ input[type="radio"], input[type="checkbox"] {
         justify-content: center;
         display: flex;
     
-}
-
-.text-center {
-    text-align: center;
 }
