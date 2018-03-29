@@ -572,4 +572,16 @@ label {
 input[type="radio"], input[type="checkbox"] {
     margin: 0;
     height: auto;
+    bottom: 1px;
+}
+
+.inline-graph {
+    
+        justify-content: center;
+        display: flex;
+    
+}
+
+.text-center {
+    text-align: center;
 }
