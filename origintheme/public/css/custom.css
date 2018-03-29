@@ -1,4 +1,4 @@
-/** Who Theme App - Hide **/
+/** Origin Theme App - Hide **/
 .module-link[href="#modules/Learn"]{
 	display:none;
 }
@@ -6,7 +6,7 @@
 .navbar-nav a[href^="#modules/"]{
     display:none; 
 }
-/** Who Theme App - Inset **/
+/** Origin Theme App - Inset **/
 
 .modal {
     z-index: 1040;
@@ -21,6 +21,7 @@ html {
     margin-top: 17px;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
+    font-size: 28px;
 }
 
 span.navbar-company {
@@ -60,7 +61,7 @@ input.form-control::-moz-placeholder {
     color: #c5c7c7 !important;
   }
 
-/** Who Theme App **/
+/** Origin Theme App **/
 
 #page-desktop {
     position: static
@@ -396,10 +397,10 @@ h6.uppercase,
     border-bottom: none;
 }
 
-.form-section:last-child{
-
+.form-section:last-child {
     border-bottom: 1px solid #eaeaea;
     margin-bottom: 5px;
+    border-top: 1px solid #eaeaea;
 }
 
 .layout-main-section {
@@ -554,7 +555,6 @@ fieldset[disabled] .btn-primary.active {
     display: inline-block;
     vertical-align: middle;
     font-weight: 300;
-    font-size: 1.2em;
     position: relative;
     top: 0;
     color: #2f3434;

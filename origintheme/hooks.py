@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "bdtheme"
-app_title = "bd theme"
+app_title = "origin theme"
 app_publisher = "Who Agency"
 app_description = "ERPnext Theme"
 app_icon = "fa fa-paint-brush"

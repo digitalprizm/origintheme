@@ -5,10 +5,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "bd theme",
+			"module_name": "origin theme",
 			"color": "gold",
 			"icon": "fa fa-paint-brush",
 			"type": "module",
-			"label": _("bd theme")
+			"label": _("Origin Theme")
 		}
 	]

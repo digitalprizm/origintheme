@@ -15,7 +15,7 @@ requirements = parse_requirements("requirements.txt", session="")
 setup(
 	name='bdtheme',
 	version=version,
-	description='bd theme',
+	description='origin theme',
 	author='Who Agency',
 	author_email='josh@whoagency.com',
 	packages=find_packages(),
