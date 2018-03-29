@@ -17,7 +17,7 @@ $(document).ready(function() {
 	$('body').addClass('skin-origin sidebar-mini sidebar-collapse');	
 	$('#body_div').addClass('content-wrapper');
 	
-	bdtheme.set_user_background();
+	origintheme.set_user_background();
 	
 });
 
@@ -44,16 +44,16 @@ $(document).ready(function() {
 // 	}
 //    }, false);
 //    if (element2.parentNode == element1)
-frappe.provide("bdtheme");
+frappe.provide("origintheme");
 
 // add toolbar icon
 $(document).bind('toolbar_setup', function() {
-	frappe.app.name = "bdoop Erp";
+	frappe.app.name = "origintheme";
 	$('.navbar-home').html(frappe._('Home'));
 
 });
 
-bdtheme.set_user_background = function(src, selector, style){
+origintheme.set_user_background = function(src, selector, style){
 	if(!selector) selector = "#page-desktop";
 	if(!style) style = "Fill Screen";
 	if(src) {
@@ -75,7 +75,7 @@ bdtheme.set_user_background = function(src, selector, style){
 	}));
 }
 
-// bdtheme.desk_2 = function(){
+// origintheme.desk_2 = function(){
 // 	if(!selector) selector = "#page-desktop";
 // 	if(!style) style = "Fill Screen";
 // 	if(src) {

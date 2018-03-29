@@ -2,7 +2,7 @@
 from __future__ import unicode_literals
 from . import __version__ as app_version
 
-app_name = "bdtheme"
+app_name = "origintheme"
 app_title = "origin theme"
 app_publisher = "Who Agency"
 app_description = "ERPnext Theme"
@@ -16,23 +16,23 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 app_include_css = [
-    "/assets/bdtheme/css/bdtheme.css",
-    "/assets/bdtheme/css/skin-origin.css",
-    "/assets/bdtheme/css/custom.css",
-    "/assets/bdtheme/css/temp.css",
+    "/assets/origintheme/css/origintheme.css",
+    "/assets/origintheme/css/skin-origin.css",
+    "/assets/origintheme/css/custom.css",
+    "/assets/origintheme/css/temp.css",
 ]
 app_include_js = [
-    "/assets/bdtheme/js/bdtheme.js",
-    "/assets/bdtheme/js/custom.js",
-    "/assets/js/bdtheme-template.min.js",
+    "/assets/origintheme/js/origintheme.js",
+    "/assets/origintheme/js/custom.js",
+    "/assets/js/origintheme-template.min.js",
 ]
 
 # include js, css files in header of web template
-web_include_css = "/assets/bdtheme/css/bdtheme-web.css"
-# web_include_js = "/assets/bdtheme/js/bdtheme.js"
+web_include_css = "/assets/origintheme/css/origintheme-web.css"
+# web_include_js = "/assets/origintheme/js/origintheme.js"
 
 # login
-on_session_creation = "bdtheme.api.on_session_creation"
+on_session_creation = "origintheme.api.on_session_creation"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
@@ -45,8 +45,8 @@ on_session_creation = "bdtheme.api.on_session_creation"
 # Home Pages
 # ----------
 website_context = {
-	"favicon": 	"/assets/bdtheme/images/favicon.png",
-	"splash_image": "/assets/bdtheme/images/icon.svg"
+	"favicon": 	"/assets/origintheme/images/favicon.png",
+	"splash_image": "/assets/origintheme/images/icon.svg"
 }
 # application home page (will override Website Settings)
 # home_page = "login"
@@ -57,7 +57,7 @@ website_context = {
 # }
 
 # Website user home page (by function)
-# get_website_user_home_page = "bdtheme.utils.get_home_page"
+# get_website_user_home_page = "origintheme.utils.get_home_page"
 
 # Generators
 # ----------
@@ -68,14 +68,14 @@ website_context = {
 # Installation
 # ------------
 
-# before_install = "bdtheme.install.before_install"
-# after_install = "bdtheme.install.after_install"
+# before_install = "origintheme.install.before_install"
+# after_install = "origintheme.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "bdtheme.notifications.get_notification_config"
+# notification_config = "origintheme.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -106,31 +106,31 @@ website_context = {
 
 # scheduler_events = {
 # 	"all": [
-# 		"bdtheme.tasks.all"
+# 		"origintheme.tasks.all"
 # 	],
 # 	"daily": [
-# 		"bdtheme.tasks.daily"
+# 		"origintheme.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"bdtheme.tasks.hourly"
+# 		"origintheme.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"bdtheme.tasks.weekly"
+# 		"origintheme.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"bdtheme.tasks.monthly"
+# 		"origintheme.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "bdtheme.install.before_tests"
+# before_tests = "origintheme.install.before_tests"
 
 # Overriding Whitelisted Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "bdtheme.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "origintheme.event.get_events"
 # }
 
