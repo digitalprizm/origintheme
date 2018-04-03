@@ -6,7 +6,7 @@
 .main-header {
   position: relative;
   max-height: 100px;
-  z-index: 1030;
+  z-index: 7;
 }
 .main-header .navbar {
   -webkit-transition: margin-left 0.3s ease-in-out;
@@ -255,7 +255,7 @@ li.user-progress .progress-chart {
  /* left:0; */
  padding-top:50px;
  width:200px;
- z-index:810;
+ z-index:6;
  -webkit-transition:-webkit-transform .3s ease-in-out,width .3s ease-in-out;
  -moz-transition:-moz-transform .3s ease-in-out,width .3s ease-in-out;
  -o-transition:-o-transform .3s ease-in-out,width .3s ease-in-out;
@@ -482,10 +482,10 @@ li.user-progress .progress-chart {
  .sidebar-mini.sidebar-collapse .main-sidebar {
   -webkit-transform:translate(0, 0);
   -ms-transform:translate(0, 0);
-  -o-transform:translate(0, 0);
+  -o-transform:translate(0, 0); 
   transform:translate(0, 0);
   width:58px !important;
-  z-index:850;
+  z-index:6;
   border-radius: 10px;
   background-color: #fff;
   top: 30px;
