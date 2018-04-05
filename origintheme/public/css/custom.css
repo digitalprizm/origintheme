@@ -16,6 +16,12 @@
     /*z-index: 1040;*/
 }
 
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .5;
+    background-color: #555 !important;
+}
+
 html {
     background-color: #d0d0d0;
     padding: 15px;
@@ -210,8 +216,7 @@ header .dropdown-help {
     color: #666666;
     border: none;
     font-weight: normal;
-    top: 2px;
-    position: relative;
+    padding: 10px 0 0 0;
 }
 
 .toolbar-user-fullname {
