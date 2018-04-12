@@ -598,3 +598,12 @@ input[type="radio"], input[type="checkbox"] {
         display: flex;
     
 } */
+.print-format-builder-sidebar {
+    display: inline-block;
+    width: 180px;
+    vertical-align: top;
+    position: fixed;
+    top: 152px;
+    bottom: 0px;
+    overflow-y: auto;
+}
