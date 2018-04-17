@@ -2,7 +2,20 @@
  * Component: Main Header
  * ----------------------
  */
-
+ @media (max-width: 767px) {
+  html {
+      background-color: #d0d0d0;
+      padding: 0px;
+  }
+  .navbar > .container > .navbar-header > .navbar-company{
+    float: left;
+    width: 80%;
+    display: none;
+  }
+  body {
+    border-radius: 0px;
+  }
+}
 .main-header {
   position: relative;
   max-height: 100px;

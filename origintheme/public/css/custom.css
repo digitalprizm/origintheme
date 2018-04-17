@@ -286,6 +286,7 @@ header .dropdown-help {
     background: #2f3333 url(/assets/origintheme/images/icon.svg) center no-repeat;
 
     text-indent: -99em;
+    display: none;
 }
 
 .main-header .logo .logo-mini {
