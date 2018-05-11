@@ -1,7 +1,29 @@
 $(document).ready(function() {
+
+	//console.log("Current user",frappe.utils.user);
+
+	frappe.call({
+		method: "origintheme.api.get_sidebar_template",
+		args: {
+		},
+	}).done((r) => {
+		var temp = r.message;
+		if(!temp) {
+			temp = 'main-sidebar';
+		}
+		try {
+			$('.main-section').append(frappe.render_template(temp));	
+		} catch(err) {
+			$('.main-section').append(frappe.render_template("main-sidebar"));
+		}
+
+	}).fail((f) => {
+		$('.main-section').append(frappe.render_template("main-sidebar"));
+	})
+
+
 	$('header').prepend(frappe.render_template("logo"));
 	$('.navbar-desk').prepend(frappe.render_template("company-name"));
-	$('.main-section').append(frappe.render_template("main-sidebar"));
 	$('head').append(frappe.render_template("material-icons"));
 	$('head').append(frappe.render_template("poppins"));
 
