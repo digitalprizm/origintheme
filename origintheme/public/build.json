@@ -11,7 +11,8 @@
     ],
     "js/origintheme-template.min.js": [
         "public/js/template/main-sidebar.html",
-        "public/js/template/stacey-sidebar.html"
+        "public/js/template/hrm-sidebar.html",
+        "public/js/template/crm-sidebar.html"
     ]
     
 }
