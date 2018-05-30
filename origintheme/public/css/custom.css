@@ -283,14 +283,14 @@ header .dropdown-help {
     visibility: hidden !important;;
 }
 
-
+s
 .main-header .logo .logo-lg{
-    background: #0073aa url(/assets/origintheme/images/Dpi_logo.png) center no-repeat; 
+    background: #f0f0f0 url(/assets/origintheme/images/Dpi_logo.png) center no-repeat; 
     background-size: auto 48px;
     text-indent:-99em;
 }
 .main-header .logo .logo-mini{
-    background: #0073aa url(/assets/origintheme/images/Dpi_logo.png) center no-repeat; 
+    background: #f0f0f0 url(/assets/origintheme/images/Dpi_logo.png) center no-repeat; 
     background-size: auto 38px;
     text-indent:-99em;
 }

@@ -374,11 +374,11 @@ li.user-progress .progress-chart {
 .main-sidebar .sidebar-menu>li>a>.fa,.main-sidebar .sidebar-menu>li>a>.glyphicon,.main-sidebar .sidebar-menu>li>a>.ion {
 
   font-size: 18px;
-  background-color: #f0f0f0;
+  background-color: #0073aa;
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  color: #2f3333;
+  color: #ffffff;
   z-index: 9999;
   position: relative;
   display: flex;
@@ -390,11 +390,11 @@ li.user-progress .progress-chart {
 .main-sidebar .sidebar-menu>li>a>.ma{
 
   font-size: 20px;
-  background-color: #f0f0f0;
+  background-color: #0073aa;
   width: 38px;
   height: 38px;
   border-radius: 50%;
-  color: #2f3333;
+  color: #ffffff;
   z-index: 9999;
   position: relative;
   display: flex;
@@ -410,14 +410,14 @@ li.user-progress .progress-chart {
 .main-sidebar .sidebar-menu>li:active>a>.glyphicon,
 .main-sidebar .sidebar-menu>li:active>a>.ion{
   
-  background-color: #252525;
+  background-color: #a6ce39;
   color: white;
 }
 
 .main-sidebar .sidebar-menu>li:hover>a>.ma,
 .main-sidebar .sidebar-menu>li:active>a>.ma{
   
-  background-color: #252525;
+  background-color: #a6ce39;
   color: white;
 }
 

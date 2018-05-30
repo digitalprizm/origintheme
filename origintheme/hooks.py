@@ -45,8 +45,8 @@ on_session_creation = "origintheme.api.on_session_creation"
 # Home Pages
 # ----------
 website_context = {
-	"favicon": 	"/assets/origintheme/images/dpi.png",
-	"splash_image": "/assets/origintheme/images/dpi.png"
+	"favicon": 	"/assets/origintheme/images/Dpi_logo.png",
+	"splash_image": "/assets/origintheme/images/Dpi_logo.png"
 }
 # application home page (will override Website Settings)
 # home_page = "login"

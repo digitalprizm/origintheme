@@ -12,7 +12,12 @@ def on_session_creation(login_manager):
 
 	frappe.local.response["home_page"] = info.home_page_link or "/desk"
 
+#@frappe.whitelist()
+#def get_sidebar_template():
+#	cur_user = frappe.get_doc('User',frappe.session.user)
+#	return cur_user.sidebar_template
+
 @frappe.whitelist()
 def get_sidebar_template():
-	cur_user = frappe.get_doc('User',frappe.session.user)
-	return cur_user.sidebar_template
+	system_settings = frappe.get_doc("System Settings")
+	return system_settings.sidebar_template
