@@ -141,7 +141,7 @@ li.user-progress .progress-chart {
   font-size: 20px;
   line-height: 65px;
   text-align: center;
-  width: 200px;
+  width: 50px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
   font-weight: 100;
@@ -358,12 +358,12 @@ li.user-progress .progress-chart {
 }
 
 .main-sidebar .sidebar-menu>li:hover {
-  background-color: #7b6c41;
+  background-color: #0073aa;
   border-radius: 0 25px 25px 0;
 }
 
 .main-sidebar .sidebar-menu>li:active {
-  background-color: #7b6c41;
+  background-color: #0073aa;
   border-radius: 0 25px 25px 0;
 }
 
@@ -529,7 +529,7 @@ li.user-progress .progress-chart {
   display: block !important;
   position: absolute;
   left: 25px;
-  background: rgba(123, 108, 64, 1.0);
+  background: rgba(0, 115, 170, 1);            
   z-index: 1000;
   border-radius: 0 25px 25px 0;
   text-align: left;

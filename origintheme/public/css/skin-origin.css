@@ -27,7 +27,7 @@
  }
 
 .skin-origin .main-header .navbar {
-  background-color: #2f3333;
+  background-color: #0073aa;
 }
 .skin-origin .main-header .navbar .nav > li > a {
   color: white;
@@ -91,10 +91,10 @@
 }
 .skin-origin .main-sidebar .sidebar-menu > li.header {
   color: white;
-  background: #2f3333;
+  background: #0073aa;
 }
 .skin-origin .main-sidebar .sidebar-menu > li > a:focus {
-  background-color: #7b6c41;
+  background-color: #0073aa;
   border-radius: 0 25px 25px 0;
   
 }

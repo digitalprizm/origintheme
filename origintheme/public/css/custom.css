@@ -101,7 +101,7 @@ header .container {
     padding: 0px 15px 0 0;
     min-height: 50px;
     border: 0px solid white;
-    box-shadow: inset 0px -5px 0px 0px #86754d;
+    box-shadow: inset 0px -5px 0px 0px #a5cd3a;
 }
 @media (min-width: 768px) {
     .navbar-nav {
@@ -283,19 +283,17 @@ header .dropdown-help {
     visibility: hidden !important;;
 }
 
-.main-header .logo .logo-lg {
-    background: #2f3333 url(/assets/origintheme/images/icon.svg) center no-repeat;
 
-    text-indent: -99em;
-    display: none;
+.main-header .logo .logo-lg{
+    background: #0073aa url(/assets/origintheme/images/Dpi_logo.png) center no-repeat; 
+    background-size: auto 48px;
+    text-indent:-99em;
 }
-
-.main-header .logo .logo-mini {
-    background: #2f3333 url(/assets/origintheme/images/icon.svg) center no-repeat;
-
-    text-indent: -99em;
+.main-header .logo .logo-mini{
+    background: #0073aa url(/assets/origintheme/images/Dpi_logo.png) center no-repeat; 
+    background-size: auto 38px;
+    text-indent:-99em;
 }
-
 .layout-side-section {
     font-size: 13px;
 }
@@ -510,8 +508,8 @@ h6.uppercase,
 
 .btn-primary {
     color: white;
-    background-color: #86754d;
-    border-color: #86754d;
+    background-color: #0073aa;
+    border-color: #0073aa;
 }
 
 .btn-primary:hover,
@@ -521,7 +519,7 @@ h6.uppercase,
 .btn-primary.active,
 .open>.dropdown-toggle.btn-primary {
     color: #fff;
-    background-color: #af9865;
+    background-color: #0073aa;
     border-color: transparent;
 
 }
