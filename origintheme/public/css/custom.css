@@ -42,6 +42,12 @@ span.navbar-company {
     float: left;
     margin:-5px !important;
 }
+span.octicon.text-muted.octicon-arrow-down {
+    color: #ffffff !important;
+}
+span.octicon.text-muted.octicon-arrow-up {
+    color: #ffffff !important;
+}
 
 body {
     overflow-x: hidden;
@@ -363,7 +369,7 @@ h6.uppercase,
 }
 button.btn.btn-default.btn-xs.new-filter.text-muted {
     color: white !important;
-}
+}   
 .text-muted {
     color: #6b6b6b !important;
 }
@@ -525,7 +531,9 @@ button.btn.btn-default.btn-xs.new-filter.text-muted {
     border-color: transparent;
 
 }
-
+span.octicon.text-muted.octicon-arrow-down {
+    color: #ffffff !important;
+}
 .btn-xs, .btn-group-xs > .btn {
     padding: 1px 10px;
     font-size: 12px;
